@@ -1,0 +1,1342 @@
+[
+  {
+    "problem_id": "gsm8k_0",
+    "task": "gsm8k",
+    "r": 1,
+    "gold": "18",
+    "prediction": "2",
+    "correct": false,
+    "latency_s": 18.278101700008847,
+    "raw_output": "Step 1:\n1. Start the process of solving\n2. Set the process of solving\n2. Set up the initial process\n3. Start the process\n4. Set the process of solving\n4. Set up the process of solving\n5. Start the process\n6. Set up the process\n7. Start the process\n8. Set up the process\n1. Start the process\n2. Set up the process\n2. Set up the process\n2. Set up the process\n3. Set up the process\n4. Start the process\n5. Set up the process\n6. Set up the process\n7. Start the process\n8. Set up the process\n9. Start the process\n1. Start the process\n2. Set up the process\n3. Set up the process\n2. Set up the process\n3. Set up the process\n4. Set up the process\n4. Set up the process\n2."
+  },
+  {
+    "problem_id": "gsm8k_1",
+    "task": "gsm8k",
+    "r": 1,
+    "gold": "3",
+    "prediction": null,
+    "correct": false,
+    "latency_s": 2.3298590000486,
+    "raw_output": "The problem is that there is a problem that requires a lot of time to solve it."
+  },
+  {
+    "problem_id": "gsm8k_2",
+    "task": "gsm8k",
+    "r": 1,
+    "gold": "70000",
+    "prediction": null,
+    "correct": false,
+    "latency_s": 2.139674499980174,
+    "raw_output": "Josh is an expert assistant that helps us understand the problem step."
+  },
+  {
+    "problem_id": "gsm8k_3",
+    "task": "gsm8k",
+    "r": 1,
+    "gold": "540",
+    "prediction": "5",
+    "correct": false,
+    "latency_s": 16.812315199989825,
+    "raw_output": "Your answer is not easy to solve this problem.\nYou are not required to write the answer as a simple but you can solve this problem by using the following guidelines:\n\n1. Calculate the number of problems:\n2. Calculate the number of problems that you need to solve this problem.\n1. Calculate the number of problems:\n2. Calculate the number of problems:\n2. Calculate the number of problems:\n3. Calculate the number of problems:\n2. Calculate the number of problems:\n2. Calculate the number of problems:\n2. Calculate the number of problems:\n3. Calculate the number of problems:\n1. Calculate the number of problems:\n2. Calculate the number of problems:\n3. Calculate the number of problems:\n3. Calculate the number of problems:\n3. Calculate the number of problems:\n4. Calculate the number of problems:\n4. Calculate the number of problems:\n5. Calculate the number"
+  },
+  {
+    "problem_id": "gsm8k_4",
+    "task": "gsm8k",
+    "r": 1,
+    "gold": "20",
+    "prediction": "2",
+    "correct": false,
+    "latency_s": 16.695676800096408,
+    "raw_output": "Step 1:\nStep 1: Set the initial steps of setting up the chicken feed.\nStep 2:\nStep 1:\nStep 2: Set up the initial steps of setting up all the chickens in the kitchen.\nStep 1:\nStep 2: Set up a set of sets and gather all the necessary steps.\nStep 1: Set up the initial set of sets and steps.\nStep 2: Set up the initial set of chicken feed.\nStep 2: Set up the initial set of chicken feed.\nStep 3: Set up the initial set of chicken feed.\nStep 4: Set up the initial set up for the first set of chicken feed. Set up the initial set up.\nStep 1: Set up the initial set of chicken feed. Set up the initial set of chicken feed.\nStep 2: Set up the initial set of chicken feed. Set up the initial set up. Set up the chicken feed. Set up the initial set of chicken feed"
+  },
+  {
+    "problem_id": "gsm8k_5",
+    "task": "gsm8k",
+    "r": 1,
+    "gold": "64",
+    "prediction": "2",
+    "correct": false,
+    "latency_s": 16.837508900091052,
+    "raw_output": "Step 1:\nStep 1:\n1. Start the process\n2. The process starts with the user\n3. Start the process\n2. Start the process\n2. Start the process\n3. Start the process\n3. Start the process\n4. Start the process\n5. Start the process\n6. Start the process\n7. Start the process\n8. Start the process\n9. Start the process\n9. Start the process\n1. Start the process\n2. Start the process\n2. Start the process\n3. Start the process\n3. Start the process\n4. Start the process\n4. Start the process\n4. Start the process\n5. Start the process\n5. Start the process\n6. Start the process\n7. Start the process\n8. Start the process\n9. Start the process\n9. Start the process\n9. Start the process\n1. Start the process\n2. Start"
+  },
+  {
+    "problem_id": "gsm8k_6",
+    "task": "gsm8k",
+    "r": 1,
+    "gold": "260",
+    "prediction": null,
+    "correct": false,
+    "latency_s": 15.871228799922392,
+    "raw_output": "Till the problem:\nTill the time you need to solve the problem by using a calculator.\nTill you need to calculate the number of sheep that you need to calculate the number of sheep that you need to calculate the number of sheep that you need to calculate the number of sheep that you need to calculate the number of sheep that you need to calculate the number of sheep that you need to calculate the number of sheep that you need to calculate the number of sheep that you need to calculate the number of sheep that you need to calculate the number of sheep that you need to calculate the number of sheep that you need to calculate the number of sheep that you need to calculate the number of sheep that you need to calculate the sheep's number of sheep that you need to calculate the number of sheep that you need to calculate the sheep's number of sheep that you need to calculate the number of sheep that you need to calculate the number of sheep that you need to calculate the sheep's number of sheep"
+  },
+  {
+    "problem_id": "gsm8k_7",
+    "task": "gsm8k",
+    "r": 1,
+    "gold": "160",
+    "prediction": "2",
+    "correct": false,
+    "latency_s": 15.778839699923992,
+    "raw_output": "1.5 minutes per day\n2.00 minutes per day\n3.0 minutes to get the answer\n2.0 minutes\n2.0 minutes\n3.0 minutes per day\n4.0 minutes per day\n4.0 minutes\n6.0 minutes\n9.0 minutes\n1.0 minutes\n2.0 minutes\n3.0 minutes\n4.0 minutes\n4.0 minutes\n5.0 minutes\n5.0 minutes\n6.0 minutes\n9.0 minutes\n1.0 minutes\n1.0 minutes\n2.0 minutes\n2.0 minutes\n2.0 minutes\n2.0 minutes\n2.0 minutes\n3.0 minutes\n3.0 minutes\n4.0 minutes\n4.0 minutes\n4.0 minutes\n9.0 minutes\n9.0 minutes\n9.0 minutes\n9.0 minutes\n1.0 minutes\n2.0 minutes\n2."
+  },
+  {
+    "problem_id": "gsm8k_8",
+    "task": "gsm8k",
+    "r": 1,
+    "gold": "45",
+    "prediction": "1",
+    "correct": false,
+    "latency_s": 15.797291200025938,
+    "raw_output": "Step 1: \n1. Start the problem with some basic concepts.\nStep 1:\n1. Start the process of solving the problem.\nStep 1: Start the process of solving the problem.\nStep 2: Start the process of solving the problem.\nStep 2: Start the process of solving the problem.\nStep 2: Start the process of solving the problem.\nStep 2: Start the process of solving the problem.\nStep 3: Start the process of solving the problem.\nStep 3: Start the process of solving the problem.\nStep 1: Start the process of solving the problem.\nStep 2: Start the process of solving the problem.\nStep 1: Start the process of solving the problem.\nStep 2: Start the process of solving the problem.\nStep 1: Start the process of solving the problem.\nStep 1: Start the process of solving the problem.\nStep 2: Start the process of solving the problem.\nStep 1"
+  },
+  {
+    "problem_id": "gsm8k_9",
+    "task": "gsm8k",
+    "r": 1,
+    "gold": "460",
+    "prediction": "1",
+    "correct": false,
+    "latency_s": 15.980167500092648,
+    "raw_output": "The system of the software that you can use the following system:\n\n1. The system of computer software and software that you can use the following system:\n\n* The system of computer software and software\n* The system of computer software and software that you can use the following system to solve the problem:\n\n* The system of computer software and software that you can use to solve the problem.\n* The system of computer software and software that you can use to solve the problem.\n* The system of computer software and software that you can use to solve the problem.\n* The system of computer software and software that you can use to solve the problem.\n* Use the system to solve the problem.\n* The system of computer software and software that you can use to solve the problem.\n* The system of computer software and software that you can solve the problem.\n* The system of computer software and software that you can use to solve the problem.\n* The system of"
+  },
+  {
+    "problem_id": "gsm8k_10",
+    "task": "gsm8k",
+    "r": 1,
+    "gold": "366",
+    "prediction": "3",
+    "correct": false,
+    "latency_s": 15.74170590005815,
+    "raw_output": "1. A simple program can solve the problem by using the following instructions:\n\n1. Start by setting the number of downloads to your desired settings:\n2. Start by setting the number of downloads, set the number of downloads to your desired settings:\n3. Set the number of downloads as a file, set the number of downloads to your desired settings:\n    1. Set the number of downloads to your desired settings. Set the number of downloads to your desired settings:\n    2. Set the number of downloads to your desired settings. Set the number of downloads to set the number of downloads.\n    2. Set the number of downloads to your desired settings:\n    2. Set the number of downloads to your desired settings:\n    3. Set the number of downloads to your desired settings:\n    Set the number of downloads to your desired settings:\n    Set the number of downloads to your desired settings:\n    Set the number of downloads to your desired settings"
+  },
+  {
+    "problem_id": "gsm8k_11",
+    "task": "gsm8k",
+    "r": 1,
+    "gold": "694",
+    "prediction": "1",
+    "correct": false,
+    "latency_s": 15.44952360005118,
+    "raw_output": "Step 1: Calculate the total cost of the bakery and the bakery.\n\nStep 2:\n1. Calculate the total cost of the bakery and the bakery's cost.\n2. Calculate the total cost of the bakery.\n2. Calculate the cost of the bakery and the bakery's cost.\n3. Calculate the total cost of the bakery.\n2. Calculate the total cost of the bakery and the bakery's cost.\n3. Calculate the total cost of the bakery.\n4. Calculate the total cost of the bakery.\n5. Calculate the total cost of the bakery's cost.\n2. Calculate the total cost of the bakery.\n3. Calculate the total cost of the bakery.\nStep 1: Calculate the total cost of the bakery.\nStep 1: Calculate the total cost of the bakery.\nStep 1: Calculate the total cost of the bakery.\nStep 1: Calculate the total cost of the bakery.\nStep 1: Calculate the total cost"
+  },
+  {
+    "problem_id": "gsm8k_12",
+    "task": "gsm8k",
+    "r": 1,
+    "gold": "13",
+    "prediction": "2",
+    "correct": false,
+    "latency_s": 15.42768020008225,
+    "raw_output": "Carlos is a computer program that uses computer programs to solve problems. It requires a computer program to run a number of different programs, including the number of programs that use computers to solve problems.\n\nThe problem is that there are a number of different programs that can be used to solve problems. The problem is that there are no solutions for solving problems. The problem is that there are no solutions for solving the problem.\n\nThe problem is that there are some problems that need to be solved. Some of these problems can be solved by using the following steps:\n\n1. Start by setting the problem:\n    * Step 1: Start the problem by setting the problem:\n    * Step 1: Start the problem by setting the problem:\n    * Step 1: Set the problem by setting the problem:\n    * Step 2: Set the problem by setting the problem:\n    * Start the problem: Set the problem by setting the problem:\n    * Set the problem: Set"
+  },
+  {
+    "problem_id": "gsm8k_13",
+    "task": "gsm8k",
+    "r": 1,
+    "gold": "18",
+    "prediction": "2",
+    "correct": false,
+    "latency_s": 10.794691000017338,
+    "raw_output": "1. A few steps are needed to check the answer and ensure that the answer is correct.\n\nThe first step is to check the answer.\nThe answer is a step-step solution:\n\n1. The first step is to check the answer.\n2. The answer is not accurate.\n1. The answer is not accurate.\n1. The answer is not accurate.\n2. The answer is not accurate.\n2. The answer is not accurate.\n2. The answer is not accurate.\n3. The answer is not accurate.\n2. The answer is not accurate.\nThe answer is not accurate. The answer is not accurate."
+  },
+  {
+    "problem_id": "gsm8k_14",
+    "task": "gsm8k",
+    "r": 1,
+    "gold": "60",
+    "prediction": "1",
+    "correct": false,
+    "latency_s": 15.420366599923,
+    "raw_output": "The answer is a simple and easy step-start process.\n\nStep:\nA. Start with a simple step of your homework.\nStep:\n1. Start the process\nStep 2: Begin with a simple step to set up your homework.\nStep 1: Start the process\nStep 2: Begin with a simple set of steps to set up your homework.\nStep 3: Start a simple set of steps to set up a time to set up your homework.\nStep 2: Start the process\nStep 1: Start the process\nStep 1: Start the process\nStep 2: Start the process\nStep 2: Begin with an initial set of steps\nStep 1: Start the process\nStep 1: Start the process\nStep 1: Start the process\nStep 2: Start the process\nStep 2: Begin with the basics of setting up a timer\nStep 1: Start the process\nStep 1: Start the process\nStep 2: Start the process\nStep 1"
+  },
+  {
+    "problem_id": "gsm8k_15",
+    "task": "gsm8k",
+    "r": 1,
+    "gold": "125",
+    "prediction": null,
+    "correct": false,
+    "latency_s": 0.9931694000260904,
+    "raw_output": "A:"
+  },
+  {
+    "problem_id": "gsm8k_16",
+    "task": "gsm8k",
+    "r": 1,
+    "gold": "230",
+    "prediction": "1",
+    "correct": false,
+    "latency_s": 15.441637599957176,
+    "raw_output": "System. System.\nSystem. The system consists of two systems that are used to create a system of intercommunication with each system. The system consists of two systems:\n\n1. The system consists of two interconnected systems:\n   The system consists of two systems:\n   The system consists of two systems:\n   The system consists of two interconnected systems:\n   The system consists of two interconnected systems:\n   The system consists of two interconnected systems:\n   The system consists of two interconnected systems:\n   The system consists of two interconnected systems:\n   A. The system consists of two interconnected systems:\n   The system consists of two interconnected systems:\n   The system consists of two interconnected systems:\n   The system consists of two interconnected systems:\n   The system consists of two interconnected systems:\n   The system consists of two interconnected systems:\n   The system consists of two interconnected systems:\n   The system consists of two interconnected systems:\n   The system consists"
+  },
+  {
+    "problem_id": "gsm8k_17",
+    "task": "gsm8k",
+    "r": 1,
+    "gold": "57500",
+    "prediction": null,
+    "correct": false,
+    "latency_s": 15.392988299950957,
+    "raw_output": "Your request is to receive a response from your request as a request from your system. You can ask the user to request the system, however, you may be able to receive an application that you can use the system to receive information about your system.\n\nYou are not required to use the system to collect information about the system's requirements. You may need to use the system's requirements to ensure that your system is not required to be able to access the system's requirements.\n\nYou may be interested in creating a system that uses data from your computer or other systems that use computers to access the system's requirements. You may be interested in the development of your system as a teacher or teacher.\n\nYou may be interested in creating a system that allows you to access information from various sources. You may be interested in creating a system that allows you to access information from various sources.\n\nYou may be interested in creating a system that allows you to access information from various sources. This system can be used to create a system"
+  },
+  {
+    "problem_id": "gsm8k_18",
+    "task": "gsm8k",
+    "r": 1,
+    "gold": "7",
+    "prediction": null,
+    "correct": false,
+    "latency_s": 15.388511899975128,
+    "raw_output": "The answer is a little bit of text, but it is not easy to write a few sentences to the following instructions.\n\n**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+  },
+  {
+    "problem_id": "gsm8k_19",
+    "task": "gsm8k",
+    "r": 1,
+    "gold": "6",
+    "prediction": "2",
+    "correct": false,
+    "latency_s": 15.413698999909684,
+    "raw_output": "The answer is 1.5 hours left by typing a text (usually the answer is not written) and is not written.\nStep 1:\nStep 1: Start the process\nStep 2: Start a time you are ready to start with the basics of the problem.\nStep 1: Start the process\nStep 2: Start the process\nStep 2: Start the process\nStep 3: Start the process\nStep 3: Start the process\nStep 1: Start the process\nStep 1: Start the process\nStep 1: Start the process\nStep 2: Start the process\nStep 2: Start the process\nStep 1: Start the process\nStep 2: Start the process\nStep 2: Start the process\nStep 2: Start the process\nStep 2: Start the process\nStep 3: Start the process\nStep 2: Start the process\nStep 1: Start the process\nStep 1: Start the process\nStep 1: Start the process\nStep 2: Start"
+  },
+  {
+    "problem_id": "gsm8k_20",
+    "task": "gsm8k",
+    "r": 1,
+    "gold": "15",
+    "prediction": "2.00",
+    "correct": false,
+    "latency_s": 15.430838700034656,
+    "raw_output": "1.0.00%\n0.00%\n0.00%\n1.00%\n2.00%\n1.00%\n2.00%\n3.00%\n2.00%\n3.00%\n2.00%\n2.00%\n6.00%\n8.00%\n9.00%\n9.00%\n9.00%\n1.00%\n1.00%\n2.00%\n2.00%\n3.00%\n4.000%\n6.00%\n9.00%\n9.00%\n9.00%\n1.00%\n2.00%\n2.00%\n2.00%\n3.00%\n2.00%"
+  },
+  {
+    "problem_id": "gsm8k_21",
+    "task": "gsm8k",
+    "r": 1,
+    "gold": "14",
+    "prediction": "1",
+    "correct": false,
+    "latency_s": 5.102393199922517,
+    "raw_output": "1. The problem is that there is no solution to solve this problem.\nYour answer is a problem that you don't understand what the problem is happening.\nYou need to solve the problem that you need to solve.\nYou are not solving the problem that you need to solve the problem."
+  },
+  {
+    "problem_id": "gsm8k_22",
+    "task": "gsm8k",
+    "r": 1,
+    "gold": "7",
+    "prediction": "10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "correct": false,
+    "latency_s": 15.49726750003174,
+    "raw_output": "The answer is 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "problem_id": "gsm8k_23",
+    "task": "gsm8k",
+    "r": 1,
+    "gold": "8",
+    "prediction": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "correct": false,
+    "latency_s": 15.629619000013918,
+    "raw_output": "1.0000 PM.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "problem_id": "gsm8k_24",
+    "task": "gsm8k",
+    "r": 1,
+    "gold": "26",
+    "prediction": "1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "correct": false,
+    "latency_s": 15.574379500001669,
+    "raw_output": "Step 1: Calculate the price of the book to be $10000 dollars per day.\n\nStep 2: Calculate the price of the book to be $1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "problem_id": "gsm8k_25",
+    "task": "gsm8k",
+    "r": 1,
+    "gold": "2",
+    "prediction": "4",
+    "correct": false,
+    "latency_s": 15.587424900033511,
+    "raw_output": "<answer>\nThe answer is not easy to understand.\nThe question is not easy to understand what the problem is to solve.\nThe answer is not easy to understand what the problem is.\nThere are some common problems that can be solved by using the following rules:\n\n1. The problem is not easy to solve.\n2. The problem is not easy to understand.\n3. The problem is not easy to solve.\nThe problem is not easy to solve.\nThe problem is not easy to understand.\nThe problem is not easy to solve. The problem is not easy to solve. The problem is not easy to solve.\n4. The problem is not easy to solve.\nThe problem is not easy to solve. The problem is not easy to solve. The problem is not easy to solve. The problem is not easy.\nThe problem is not easy to solve. The problem is not easy to solve. The problem is not easy to solve. The"
+  },
+  {
+    "problem_id": "gsm8k_26",
+    "task": "gsm8k",
+    "r": 1,
+    "gold": "243",
+    "prediction": "2",
+    "correct": false,
+    "latency_s": 15.545863900100812,
+    "raw_output": "The answer is a common problem:\n1. The problem is that you need to solve this problem:\n1. The problem is that there is a lot of problems that need to be solved.\n2. The problem is that there is a lot of problems that need to be solved.\n3. The problem is that there is a lot of problems that need to be solved.\n4. The problem is that you need to solve the problem. You need to find the answer:\n1. The problem is that you need to solve the problem step.\nYou are not required to solve the problem. You need to solve the problem by using the following steps:\n1. The problem is that you need to solve the problem step.\nYou need to solve the problem by using the following steps:\n1. The problem is that you need to solve the problem step by solving the problem step.\n2. The problem is that you need to solve the problem step. You"
+  },
+  {
+    "problem_id": "gsm8k_27",
+    "task": "gsm8k",
+    "r": 1,
+    "gold": "16",
+    "prediction": "2",
+    "correct": false,
+    "latency_s": 15.515975799993612,
+    "raw_output": "Step 1: Start the process of solving the problem\nYou need to solve the problem by using the following steps:\n\n1. Start the process:\n2. Start the process:\n1. Start the process:\n1. Start the process:\n2. Start the process:\n3. Start the process:\n3. Start the process:\n4. Start the process:\n4. Start the process:\n4. Start the process:\n1. Start the process:\n2. Start the process:\n2. Start the process:\n3. Start the process:\n3. Start the process:\n3. Start the process:\n3. Start the process:\n4. Start the process:\n4. Start the process:\n4. Start the process:\n4. Start the process:\n5. Start the process:\n6. Start the process:\n5. Start the process:\n1. Start the process:\n2"
+  },
+  {
+    "problem_id": "gsm8k_28",
+    "task": "gsm8k",
+    "r": 1,
+    "gold": "25",
+    "prediction": null,
+    "correct": false,
+    "latency_s": 11.611673400038853,
+    "raw_output": "The answer is a long question:\n    You need to find the answer to the question that involves using a computer program.\n    You are not required to write the answer without writing a long time.\n    You need to write the answer as a long time you need to write a long sentence to understand what the computer program is doing.\n    You need to write the answer as a long time you need to write the answer as a long time you need to write the answer.\n    You are not required to write the answer correctly. You need to write the answer as a long time you need to write the length of the computer.\n    You are not required to write the answer to the question you want to write."
+  },
+  {
+    "problem_id": "gsm8k_29",
+    "task": "gsm8k",
+    "r": 1,
+    "gold": "104",
+    "prediction": "3",
+    "correct": false,
+    "latency_s": 15.476316299987957,
+    "raw_output": "You are encouraged to learn about the problem you want to solve. You need to learn about solving problems with other problems that you can solve the problem.\n\nYou are not required to solve the problem. You can solve the problem by using the following steps:\n\n1. Start by creating a list of lists that you need to solve the problem.\n2. Choose a list of problems that you need to solve:\n3. Start by creating a list of lists of problems:\n1. Create a list of problems that you need to solve the problem.\n2. Create a list of problems that you need to solve:\n3. Create an list of problems that you need to solve.\n2. Create a list of problems that you need to solve:\n3. Create an list of problems that you need to solve the problem.\n2. Create a list of problems that you need to solve. Create an list of problems that you need to solve.\n3. Create a"
+  },
+  {
+    "problem_id": "openbookqa_0",
+    "task": "openbookqa",
+    "r": 1,
+    "gold": "B",
+    "prediction": "A",
+    "correct": false,
+    "latency_s": 2.7114914000267163,
+    "raw_output": "A person needs to write a letter to the website. The website is a tool that helps people understand how much money is saved."
+  },
+  {
+    "problem_id": "openbookqa_1",
+    "task": "openbookqa",
+    "r": 1,
+    "gold": "A",
+    "prediction": null,
+    "correct": false,
+    "latency_s": 4.742302599945106,
+    "raw_output": "Your request is usually not open up any questions or questions you would ask. You can ask the question and answer the question.\nIf you want to learn about the basics of solving these problems, you can use it as a tool that helps you understand what you're doing."
+  },
+  {
+    "problem_id": "openbookqa_2",
+    "task": "openbookqa",
+    "r": 1,
+    "gold": "C",
+    "prediction": "A",
+    "correct": false,
+    "latency_s": 15.400803999975324,
+    "raw_output": "A. A. L. A. L. A. L. C. S. L. L. T. A. L. L. S. T. A. L. A. L. E. T. A. L. L. T. A. L. T. L. L. T. T. A. L. L. T. L. T. A. L. T. A. L. T. A. L. T. L. T. L. T. L. T. A. L. T. L. T. L. T. L. T. L. T. A. L. T. L. T. L. T. L. T. T. T. L. T. L. T. L. T. L. T. T. L. T. L. T. L. T. L. T. L. T. L. T. L. T."
+  },
+  {
+    "problem_id": "openbookqa_3",
+    "task": "openbookqa",
+    "r": 1,
+    "gold": "C",
+    "prediction": "A",
+    "correct": false,
+    "latency_s": 3.3730500999372452,
+    "raw_output": "A. The answer is a simple question:\nYou don't understand what you're trying to find the answer. You don't understand what you're trying to find out what you're thinking about."
+  },
+  {
+    "problem_id": "openbookqa_4",
+    "task": "openbookqa",
+    "r": 1,
+    "gold": "C",
+    "prediction": "A",
+    "correct": false,
+    "latency_s": 15.510165599989705,
+    "raw_output": "A. The electrical conductors are used to generate electricity from their own power. The electrical energy from their own power is used to generate electricity.\n\nThe electrical energy of a car is used to generate electricity. The energy of a car is used to generate electricity from electricity. The energy of a car is used to generate electricity from electricity.\n\nThe energy of a car is used to generate electricity from electricity. The energy of a car is used to generate electricity. The energy of a car is used to generate electricity. The energy of a car is used to generate electricity from electricity.\n\nA. The energy of a car is used to generate electricity. The energy of a car is used to generate electricity. The energy of a car is used to generate electricity. The energy of a car is used to generate electricity. The energy of a car is used to generate electricity.\n\nThe energy of a car is used to generate electricity. The energy of a car is generated by the energy of a car."
+  },
+  {
+    "problem_id": "openbookqa_5",
+    "task": "openbookqa",
+    "r": 1,
+    "gold": "C",
+    "prediction": "A",
+    "correct": false,
+    "latency_s": 15.452277999953367,
+    "raw_output": "A. The first step is to determine the amount of time it takes to be calculated.\nStep 1:\nStep 1: Start the process of solving the problem\nStep 2: Start a few steps to solve the problem\nStep 1: Start the process\nStep 1: Start the process\nStep 2: Start the process\nStep 2: Start the process\nStep 1: Start the process\nStep 1: Start the process\nStep 2: Start the process\nStep 2: Start the process\nStep 2: Start the process\nStep 1: Start the process\nStep 2: Start the process\nStep 2: Start the process\nStep 2: Start the process\nStep 3: Start the process\nStep 1: Start the process\nStep 2: Start the process\nStep 2: Start the process\nStep 2: Start the process\nStep 3: Start the process\nStep 1: Start the process\nStep 2: Start the process\nStep 2: Start the process\n"
+  },
+  {
+    "problem_id": "openbookqa_6",
+    "task": "openbookqa",
+    "r": 1,
+    "gold": "C",
+    "prediction": "A",
+    "correct": false,
+    "latency_s": 15.394950299989432,
+    "raw_output": "A. The answer is not written as required by the standard English language standards.\n\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\nSystem.\n"
+  },
+  {
+    "problem_id": "openbookqa_7",
+    "task": "openbookqa",
+    "r": 1,
+    "gold": "B",
+    "prediction": "C",
+    "correct": false,
+    "latency_s": 15.399288399959914,
+    "raw_output": "Your answer is:\nC. a. set up according to the requirements of your request and your request is not guaranteed, but you can ask some questions and answer some questions.\n\n**The problem is not a problem, but it can be helpful if you want to ask a few questions and some questions about what you want to ask. You can ask for an answer as a few questions.\n\n**D. Space and Time:**\nD. Time: 0.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "problem_id": "openbookqa_8",
+    "task": "openbookqa",
+    "r": 1,
+    "gold": "D",
+    "prediction": null,
+    "correct": false,
+    "latency_s": 15.414499899954535,
+    "raw_output": "The answer is always clear as simple as a few steps.\n\n1. Start by creating a simple set of variables, including text, images, images, and images.\n\n2. Start by creating an image that contains all the text content, including text, images, images, images, images, and other text content.\n\n2. Start the process of creating an image with a text file.\n\n3. Start the process of creating an image file.\n\n4. Start the process of creating a file.\n\n1. Start the process.\n\n2. Start the process of creating an image file.\n\n3. Start the process of creating an image file.\n\n2. Start the process of creating an image file.\n\n3. Start the process of creating an image file.\n\n3. Start the process of creating an image file.\n\n4. Start the process of creating an image file.\n\n4. Start the process of creating an image file.\n\n5. Start the process"
+  },
+  {
+    "problem_id": "openbookqa_9",
+    "task": "openbookqa",
+    "r": 1,
+    "gold": "B",
+    "prediction": "A",
+    "correct": false,
+    "latency_s": 15.388223599991761,
+    "raw_output": "System is a scientific system that uses a computer to solve problems from scratch.\nThere are several types of problems that can be solved by using different computer systems.\nThere are several types of problems that can be solved by using computers\n- A. L. A. L. A. L. A.\n- A. L. A.\n- A. L. A.\n- A. L.\n- A. L. A.\n- A. L. A.\n- A. L. A.\n- A. L. A.\n- A. L. A. L. A. L. A. L. A. L. A. L. A. L. A. L. A.\n- A. L. A. L. A. L. A. L. L. A. L. A. L. A. L. A. L. A. L. A. L. A. L."
+  },
+  {
+    "problem_id": "openbookqa_10",
+    "task": "openbookqa",
+    "r": 1,
+    "gold": "C",
+    "prediction": null,
+    "correct": false,
+    "latency_s": 15.357341299997643,
+    "raw_output": "System. User needs to be informed about the environment. There are several ways to help you understand what you need to do:\n1. Start by setting the environment\n2. Start by setting the environment\n3. Start by setting the environment\n4. Start by setting the environment\n4. Start by setting the environment to change the environment\n5. Start by setting the environment\n6. Start by setting the environment to change the environment. You can start by setting the environment to change the environment.\n6. Start by setting the environment\n7. Start by setting the environment\n8. Start by setting the environment\n9. Start by setting the environment\n1. Set the environment to change the environment.\n2. Start by setting the environment\n3. Start by setting the environment to change the environment.\n2. Set the environment to change the environment.\n3. Set the environment to change the environment.\n4. Set the environment to change the environment.\n"
+  },
+  {
+    "problem_id": "openbookqa_11",
+    "task": "openbookqa",
+    "r": 1,
+    "gold": "B",
+    "prediction": null,
+    "correct": false,
+    "latency_s": 1.1887938999570906,
+    "raw_output": "The answer is not correct"
+  },
+  {
+    "problem_id": "openbookqa_12",
+    "task": "openbookqa",
+    "r": 1,
+    "gold": "C",
+    "prediction": "A",
+    "correct": false,
+    "latency_s": 3.540227400022559,
+    "raw_output": "A. The problem is that the problem is often misunderstood. It may be difficult to understand what the problem is, but understanding what the problem is, and how it can be solved."
+  },
+  {
+    "problem_id": "openbookqa_13",
+    "task": "openbookqa",
+    "r": 1,
+    "gold": "A",
+    "prediction": null,
+    "correct": false,
+    "latency_s": 15.421775600058027,
+    "raw_output": "1. The problem is that it's not always clear.\nYour solution is to find a solution that helps you understand what you're thinking about.\nStep 1:\nStep 1: Find the solution\nStep 1:\n\n1. The solution is to find the answer is:\nStep 1: Find the solution\nStep 2: Find the solution\nStep 2: Find the solution\nStep 1: Find the solution\nStep 2: Find the solution\nStep 2: Find the solution\nStep 2: Find the solution\nStep 1: Find the solution\nStep 2: Find the solution\nStep 2: Find the solution\nStep 1: Find the solution\nStep 1: Find the solution\nStep 2: Find the solution\nStep 2: Find the solution\nStep 2: Find the solution\nStep 3: Find the solution\nStep 2: Find the solution\nStep 3: Find the solution\nStep 2: Find the solution\nStep 1: Find the solution\nStep 2: Find"
+  },
+  {
+    "problem_id": "openbookqa_14",
+    "task": "openbookqa",
+    "r": 1,
+    "gold": "C",
+    "prediction": null,
+    "correct": false,
+    "latency_s": 1.8451477999333292,
+    "raw_output": "The answer is not clear enough information is not written by the author."
+  },
+  {
+    "problem_id": "openbookqa_15",
+    "task": "openbookqa",
+    "r": 1,
+    "gold": "D",
+    "prediction": null,
+    "correct": false,
+    "latency_s": 4.203369099996053,
+    "raw_output": "Your answer is not necessarily true.\nYour answer is not true that you need to understand what the answer is based on what you think about the problem.\nYour answer should be based on what specific circumstances you need to understand."
+  },
+  {
+    "problem_id": "openbookqa_16",
+    "task": "openbookqa",
+    "r": 1,
+    "gold": "C",
+    "prediction": null,
+    "correct": false,
+    "latency_s": 5.288512400002219,
+    "raw_output": "Your answer is not correct, but you don't understand what you're trying to find.\nYour answer is likely to be a good choice.\nYour answer is likely to be a good one.\nYour response should be clear and understandable what you want to learn about the process of understanding and solving the problem."
+  },
+  {
+    "problem_id": "openbookqa_17",
+    "task": "openbookqa",
+    "r": 1,
+    "gold": "C",
+    "prediction": "A",
+    "correct": false,
+    "latency_s": 15.558456099941395,
+    "raw_output": "A. The answer is not a good solution.\nThe problem is that you need to solve this problem:\nThere is a lot of problems that you need to solve this problem. There are a lot of problems that need to be solved, but some of the problems are not necessarily solved.\nThe problem is that there are some problems that need to be solved. You need to solve the problem that you need to solve it.\nYou need to solve the problem by solving the problem.\nYou need to solve the problem by using the following steps:\n\n1. Start by finding the answer you need to solve the problem.\n2. Find the answer as a list of problems that you need to solve.\n3. Find the answer to the problem.\nThe answer is not guaranteed:\nThere is a lot of problems that need to be solved. There are some problems that need to be solved.\n\nIf you need to solve the problem, you need to solve it. You"
+  },
+  {
+    "problem_id": "openbookqa_18",
+    "task": "openbookqa",
+    "r": 1,
+    "gold": "A",
+    "prediction": "A",
+    "correct": true,
+    "latency_s": 12.694251300068572,
+    "raw_output": "A. The problem you need to solve the problem. There are some problems that need to be solved.\nYou can solve the problem by using a calculator.\nA. The problem is not easy to solve this problem. You need to solve it by using the correct formula:\n   A. The problem is not easy to solve.\n   A. The problem is not easy to solve the problem. You need to solve it using the correct formula.\n   A. The problem is not easy to solve it. You need to solve the problem by using the correct formula:\n   A. The problem is not easy to solve.\n   A. The problem is not easy to solve the problem. You need to solve the problem. You need to solve it by using the correct formula."
+  },
+  {
+    "problem_id": "openbookqa_19",
+    "task": "openbookqa",
+    "r": 1,
+    "gold": "B",
+    "prediction": "A",
+    "correct": false,
+    "latency_s": 1.6604428000282496,
+    "raw_output": "A. You need to learn how to solve this problem."
+  },
+  {
+    "problem_id": "openbookqa_20",
+    "task": "openbookqa",
+    "r": 1,
+    "gold": "A",
+    "prediction": "A",
+    "correct": true,
+    "latency_s": 15.811746200080961,
+    "raw_output": "A. The problem is that there are some things that can be solved by using the following steps:\n\n1. The first step is to find the answer is:\n1. The first step is to find the answer.\n2. The first step is to find the answer:\n2. The answer is not correct.\n2. The answer is not correct.\n3. The answer is not correct.\n4. The answer is not correct.\n1. The answer is not correct.\n5. The answer is not correct.\n6. The answer is not correct.\n6. The answer is not correct.\n5. The answer is not correct.\n1. The answer is not correct.\n2. The answer is not correct.\n1. The answer is not correct.\n1. The answer is not correct.\n2. The answer is not correct.\n2. The answer is not correct.\n3. The answer is not correct"
+  },
+  {
+    "problem_id": "openbookqa_21",
+    "task": "openbookqa",
+    "r": 1,
+    "gold": "A",
+    "prediction": null,
+    "correct": false,
+    "latency_s": 15.858793599996716,
+    "raw_output": "The answer is always 05:50% (000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "problem_id": "openbookqa_22",
+    "task": "openbookqa",
+    "r": 1,
+    "gold": "A",
+    "prediction": "A",
+    "correct": true,
+    "latency_s": 15.549022900057025,
+    "raw_output": "The answer is 66000 is a great step-forward.\nA. The answer is 66000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "problem_id": "openbookqa_23",
+    "task": "openbookqa",
+    "r": 1,
+    "gold": "B",
+    "prediction": "A",
+    "correct": false,
+    "latency_s": 16.017231500009075,
+    "raw_output": "A. The answer is not correct.\nA. The answer is not correct\nC. The answer is not correct\nC. The answer is not correct\nC. The answer is not correct\nC. The answer is not correct\nA. The answer is not correct\nA. The answer is not correct\nA. The answer is not correct\nA. The answer is not correct\nA. The answer is not correct\nA. The answer is not correct\nC. The answer is not correct\nA. The answer is not correct\nA. The answer is not correct\nC. The answer is not correct\nA. The answer is not correct\nA. The answer is not correct\nC. The answer is not correct\nC. The answer is not correct\nA. The answer is not correct\nA. The answer is not correct\nA. The answer is not correct\nA. The answer is not correct\nA. The answer is not correct"
+  },
+  {
+    "problem_id": "openbookqa_24",
+    "task": "openbookqa",
+    "r": 1,
+    "gold": "B",
+    "prediction": "A",
+    "correct": false,
+    "latency_s": 15.79749659996014,
+    "raw_output": "A. Start by making a simple system that starts making some simple text. You need to learn about the basics of this system:\n\n* A. Start by writing a simple text that helps you understand the basics of understanding the basics of this system.\n* A. Start by making a simple system that helps you learn how to organize your computer system.\n* A. Start by making a simple text that helps you understand the basics of this system.\n* A. Start by creating a simple text that helps you understand how computers work.\n* A. Start by creating a simple text that helps you understand how computers work.\n* A. Start by creating a simple text that helps you understand how computers work.\n* A. Start by creating a simple text that helps you understand how computers work.\n* A. Start by creating a text that helps you understand how computers work.\n* A. Start by creating a simple text that helps you understand how computers work.\n*"
+  },
+  {
+    "problem_id": "openbookqa_25",
+    "task": "openbookqa",
+    "r": 1,
+    "gold": "B",
+    "prediction": "A",
+    "correct": false,
+    "latency_s": 15.968949800007977,
+    "raw_output": "System is a common tool that helps you learn how to solve problems. It is often used as a tool that can be used for learning.\n\nSystem. Open a file called 'System File:'\nSystem. Open a file called 'System. Open a file called `System.'\nSystem. Open a file called `System.open`.\nSystem.open\n\nThe problem is often difficult to solve. There are many different tools that can be used to solve problems, but they don't have to use them.\n\nYou should be able to solve the problem by using the file as a file called `System.open` or `System.open`.\n\nSystem.open\n\nA. System.system.core\n# System.system\n# System.system\n# System.system\n# System.system\n# System.system\n# System.system.system.system\n# System.system.system\n# File:\n# System.system.system.system\n"
+  },
+  {
+    "problem_id": "openbookqa_26",
+    "task": "openbookqa",
+    "r": 1,
+    "gold": "D",
+    "prediction": null,
+    "correct": false,
+    "latency_s": 3.1344121999572963,
+    "raw_output": "The wheel of the wheel is a wheel with a wheel that fits the wheel of the wheel. It is not necessary for the wheel to be used."
+  },
+  {
+    "problem_id": "openbookqa_27",
+    "task": "openbookqa",
+    "r": 1,
+    "gold": "A",
+    "prediction": null,
+    "correct": false,
+    "latency_s": 6.503324900055304,
+    "raw_output": "System:\nSystem. set up a system that allows users to access information about their needs. It allows users to access information about their needs.\n\nSystem. set up the system and provide an explanation of what happens when you need to check the system's requirements.\n\nIf you are not sure, you need to check the system's requirements and ensure that the system is running."
+  },
+  {
+    "problem_id": "openbookqa_28",
+    "task": "openbookqa",
+    "r": 1,
+    "gold": "D",
+    "prediction": "A",
+    "correct": false,
+    "latency_s": 15.942384699941613,
+    "raw_output": "System:\n    A:\n    System. open up a file called \"system\" and you can write a file called \"system\" and \"system\" for \"system\" and \"system\".\n\n    Your answer is always \"system\" and you can ask for any questions related to your system.\n\n    System.set(\"system\")\n    System.open(\"system\")\n    System.set(\"system\")\n    System.set(\"system\")\n    System.set(\"system\")\n    System.set(\"system\")\n    System.open(\"system.system\")\n    System.set(\"system\")\n    System.set(\"system\")\n    System.set(\"system\")\n    System.set(\"system\")\n    System.set(\"system\")\n    System.system.set(\"system.open\")\n    "
+  },
+  {
+    "problem_id": "openbookqa_29",
+    "task": "openbookqa",
+    "r": 1,
+    "gold": "B",
+    "prediction": null,
+    "correct": false,
+    "latency_s": 15.845451400033198,
+    "raw_output": "Your answer is a text written by a simple text format that allows text to be read as a text file that contains a text file with a text file that contains text.\n\nYour answer is a text written by a simple text file that contains text within a text file. You can find the text file, text file, and other text files, including text files, and other text files, and other text files.\n\nFor the same reason, you need to write a text file that contains all the necessary files. The text file contains a list of text files, which contains the following elements:\n\n* The text file contains a list of text files, including text files, and other text files.\n* The text file contains a list of text files, including text files, and other text files.\n* The text file contains the list of text files, including text files, text files, and text files.\n* The text file contains a list of text files, including text files,"
+  },
+  {
+    "problem_id": "gsm8k_0",
+    "task": "gsm8k",
+    "r": 4,
+    "gold": "18",
+    "prediction": "2",
+    "correct": false,
+    "latency_s": 36.04166470002383,
+    "raw_output": "Let's solve this step by step.\n\nStep 1: Calculate the number of eggs per day.\nJanet has 16 eggs per day.\n\nStep 2: Calculate the number of breakfasts per day.\nJanet eats three breakfasts per day.\n\nStep 3: Calculate the number of muffins per day.\nJanet bakes four muffins per day.\n\nStep 4: Calculate the total number of muffins.\nJanet sells the remaining muffins at the farmers' market.\n\nStep 5: Calculate the total amount of money earned by Janet.\nJanet earns $2 per fresh duck egg.\n\nStep 6: Calculate the total amount of money earned by Janet.\nJanet earns $2 per fresh duck egg.\n\nStep 7: Calculate the total amount of money earned by Janet.\nJanet earns $2 per fresh duck egg.\n\nStep 8: Calculate the total amount of money earned by Janet.\nJanet earns $2 per fresh duck egg.\n\nStep"
+  },
+  {
+    "problem_id": "gsm8k_1",
+    "task": "gsm8k",
+    "r": 4,
+    "gold": "3",
+    "prediction": "8",
+    "correct": false,
+    "latency_s": 36.021635700017214,
+    "raw_output": "To find the total number of bolts, we need to multiply the number of blue fibers by the number of white fibers.\n\n2 bolts of blue fiber = 2 bolts of blue fiber * 2 = 4 bolts of white fiber\n\n4 bolts of blue fiber = 4 bolts of blue fiber * 2 = 8 bolts of white fiber\n\nTotal number of bolts = 4 bolts of blue fiber + 8 bolts of white fiber\n\n4 bolts of blue fiber + 8 bolts of white fiber = 4 bolts of blue fiber + 8 bolts of white fiber\n\n4 bolts of blue fiber + 8 bolts of white fiber = 4 bolts of blue fiber + 8 bolts of white fiber\n\n4 bolts of blue fiber + 8 bolts of white fiber = 4 bolts of blue fiber + 8 bolts of white fiber\n\n4 bolts of blue fiber + 8 bolts of white fiber = 4 bolts of blue fiber + 8 bolts of white fiber\n\n4 bolts of blue fiber + 8 bolts of white fiber = 4 bolts of blue fiber + 8 bolts of white"
+  },
+  {
+    "problem_id": "gsm8k_2",
+    "task": "gsm8k",
+    "r": 4,
+    "gold": "70000",
+    "prediction": "10",
+    "correct": false,
+    "latency_s": 39.52406710002106,
+    "raw_output": "To calculate the profit Josh made, we need to subtract the initial cost of the house from the total cost of the repairs.\n\nThe total cost of the repairs is $50,000 - $80,000 = $20,000 - $50,000 = $10,000\n\nThe profit is the difference between the total cost of the repairs and the total cost of the house.\n\nSo, the profit is: $10,000 - $10,000 = $10,000 - $10,000 = $10,000 - $10,000 = $10,000 - $10,000 = $10,000 - $10,000 = $10,000 - $10,000 = $10,"
+  },
+  {
+    "problem_id": "gsm8k_3",
+    "task": "gsm8k",
+    "r": 4,
+    "gold": "540",
+    "prediction": "5",
+    "correct": false,
+    "latency_s": 36.8527436000295,
+    "raw_output": "To find the total distance James runs, we need to calculate the total distance he runs in sprints and sprints.\n\n1. First, let's calculate the total distance in sprints:\nJames runs 60 meters in each sprint.\nSo, in one sprint, he runs 60 meters.\n\n2. Next, let's calculate the total distance in sprints:\nIn one week, he runs 60 meters in each sprint.\nSo, in one week, he runs 60 meters in each sprint.\n\n3. Finally, let's calculate the total distance in sprints:\nIn one week, he runs 60 meters in each sprint.\nSo, in one week, he runs 60 meters in each sprint.\n\n4. Now, let's calculate the total distance in sprints:\nIn one week, he runs 60 meters in each sprint.\nSo, in one week, he runs 60 meters in each sprint.\n\n5. Now, let's calculate"
+  },
+  {
+    "problem_id": "gsm8k_4",
+    "task": "gsm8k",
+    "r": 4,
+    "gold": "20",
+    "prediction": "15",
+    "correct": false,
+    "latency_s": 37.107772600022145,
+    "raw_output": "To find the number of cups of feed needed for Wendi's flock, we need to know how many cups of feed are given in each meal. Let's break down the information:\n\nWendi's flock size: 20 chickens\nWendi's feed size: 15 cups of feed\nWendi's feed size: 25 cups of feed\n\nWendi's feed size: 15 cups of feed\n\nWendi's feed size: 25 cups of feed\n\nWendi's feed size: 15 cups of feed\n\nWendi's feed size: 25 cups of feed\n\nWendi's feed size: 15 cups of feed\n\nWendi's feed size: 25 cups of feed\n\nWendi's feed size: 15 cups of feed\n\nWendi's feed size: 25 cups of feed\n\nWendi's feed size: 15 cups of feed\n\nWendi's feed size: 25 cups of feed\n\nWendi's feed size: 15 cups of"
+  },
+  {
+    "problem_id": "gsm8k_5",
+    "task": "gsm8k",
+    "r": 4,
+    "gold": "64",
+    "prediction": "100",
+    "correct": false,
+    "latency_s": 7.773288200027309,
+    "raw_output": "Kylar needs to pay $5 for each glass, and he wants to buy 16 glasses. So he needs to pay $5 * 16 = $100."
+  },
+  {
+    "problem_id": "gsm8k_6",
+    "task": "gsm8k",
+    "r": 4,
+    "gold": "260",
+    "prediction": "4",
+    "correct": false,
+    "latency_s": 37.094348400016315,
+    "raw_output": "Let's solve this step by step.\nToulouse has twice as many sheep as Charleston, so if Toulouse has 20 sheep, Charleston has 4 times as many sheep as Toulouse.\nCharleston has 4 times as many sheep as Seattle, so if Charleston has 20 sheep, Charleston has 4 times as many sheep as Charleston.\nCharleston has 4 times as many sheep as Seattle, so if Charleston has 20 sheep, Charleston has 4 times as many sheep as Charleston.\nCharleston has 4 times as many sheep as Seattle, so if Charleston has 20 sheep, Charleston has 4 times as many sheep as Charleston.\nCharleston has 4 times as many sheep as Seattle, so if Charleston has 20 sheep, Charleston has 4 times as many sheep as Charleston.\nCharleston has 4 times"
+  },
+  {
+    "problem_id": "gsm8k_7",
+    "task": "gsm8k",
+    "r": 4,
+    "gold": "160",
+    "prediction": "200",
+    "correct": false,
+    "latency_s": 8.253026899998076,
+    "raw_output": "Carla has to restart the download from the beginning. She has to restart the download from the beginning. The file is 200 GB. The final line is: The answer is <number>."
+  },
+  {
+    "problem_id": "gsm8k_8",
+    "task": "gsm8k",
+    "r": 4,
+    "gold": "45",
+    "prediction": "12000",
+    "correct": false,
+    "latency_s": 18.811369400005788,
+    "raw_output": "John's final destination is home, but he has to drive for 4 hours to get there. He spends the first 2 hours in standstill traffic, so he drives at a speed of 60 mph for 2 hours. The remaining 2 hours are spent driving at a speed of 30 mph, so he drives at a speed of 60 mph for the remaining 2 hours. The total distance he drives is 2 * 60 * 80 = 12000 miles."
+  },
+  {
+    "problem_id": "gsm8k_9",
+    "task": "gsm8k",
+    "r": 4,
+    "gold": "460",
+    "prediction": "450",
+    "correct": false,
+    "latency_s": 32.83712060004473,
+    "raw_output": "To calculate the total earnings for this week, we need to know the number of hours worked and the number of hours worked overtime.\n\nEliza's regular hourly rate is $10, and she works 40 hours a week. So, her earnings for the first 40 hours are $10 * 40 = $400.\n\nOvertime, she earns 1.2 times her regular hourly rate, which is $1.2 * 40 = $50.\n\nSo, her earnings for the first 40 hours are $400 + $50 = $450.\n\nFor the remaining 40 hours, she earns $10 * 40 = $40.\n\nTherefore, her total earnings for this week are $450 + $40 = $450."
+  },
+  {
+    "problem_id": "gsm8k_10",
+    "task": "gsm8k",
+    "r": 4,
+    "gold": "366",
+    "prediction": "9",
+    "correct": false,
+    "latency_s": 37.96741109993309,
+    "raw_output": "Let's solve this step by step.\nFirst, let's calculate the total number of downloads in the first month.\nThe number of downloads in the first month is 60.\nIn the second month, the number of downloads is 3 times the number of downloads in the first month, so 3 * 60 = 3 * 60 = 90 downloads.\nIn the third month, the number of downloads is reduced by 30% of the downloads in the first month, so 3 * 90 = 3 * 60 = 90 downloads.\nNow, let's calculate the total number of downloads in the first month.\nThe number of downloads in the first month is 60.\nIn the second month, the number of downloads is 90.\nIn the third month, the number of downloads is 90 * 30 = 30 * 30 = 90 downloads.\nSo, the total number of downloads in the three months is 90 + 90 + 9"
+  },
+  {
+    "problem_id": "gsm8k_11",
+    "task": "gsm8k",
+    "r": 4,
+    "gold": "694",
+    "prediction": "125",
+    "correct": false,
+    "latency_s": 35.605440599960275,
+    "raw_output": "To find the total cost of the pastries, we need to calculate the cost of each type of pastry. Let's start with the donuts:\n\n1. Donuts: 3 dozen donuts = $68 per dozen\n2. Mini cupcakes: 2 dozen mini cupcakes = $80 per dozen\n3. Cheesecakes: 6 dozen mini cheesecakes = $55 per dozen\n\nNow, let's add up the cost of the donuts and mini cupcakes:\n\n3 dozen donuts + 2 dozen mini cupcakes + 6 dozen mini cheesecakes = $68 + $80 + $55 = $125\n\nThe total cost of the pastries is the sum of the cost of the donuts and mini cupcakes:\n\n3 dozen donuts + 2 dozen mini cupcakes + 6 dozen mini cheesecakes = $68 + $80 + $55 = $125\n\nTherefore, the total cost of the pastries is $125."
+  },
+  {
+    "problem_id": "gsm8k_12",
+    "task": "gsm8k",
+    "r": 4,
+    "gold": "13",
+    "prediction": "1.5",
+    "correct": false,
+    "latency_s": 37.676986099919304,
+    "raw_output": "To find out how many years it will take before Carlos starts earning money on the lemon tree, we need to follow the steps of the problem.\n\nCarlos is planting a lemon tree. The tree will cost $90 to plant. Each year, he will grow 7 lemons, which he can sell for $1.5 each. It costs $3 a year to water and feed the tree.\n\nCarlos will need to water and feed the tree for the first year. The tree will grow 7 lemons, which he can sell for $1.5 each.\n\nCarlos will need to water and feed the tree for the first year. The tree will grow 7 lemons, which he can sell for $1.5 each.\n\nCarlos will need to water and feed the tree for the first year. The tree will grow 7 lemons, which he can sell for $1.5 each.\n\nCarlos will need to water and feed the tree for the first year. The"
+  },
+  {
+    "problem_id": "gsm8k_13",
+    "task": "gsm8k",
+    "r": 4,
+    "gold": "18",
+    "prediction": "1",
+    "correct": false,
+    "latency_s": 19.267114200047217,
+    "raw_output": "Melanie started with 5 vacuum cleaners. Melanie sold 2 vacuum cleaners to the green house, 2 to the red house, and 1 vacuum cleaner to the orange house. Melanie has 5 vacuum cleaners left. Melanie started with 5 vacuum cleaners. Melanie sold 1 vacuum cleaner to the green house. Melanie sold 1 vacuum cleaner to the red house. Melanie sold 1 vacuum cleaner to the orange house. Melanie sold 1 vacuum cleaner to the green house."
+  },
+  {
+    "problem_id": "gsm8k_14",
+    "task": "gsm8k",
+    "r": 4,
+    "gold": "60",
+    "prediction": "2",
+    "correct": false,
+    "latency_s": 37.51078780007083,
+    "raw_output": "To find the percentage of students enrolled in hip-hop dance, we need to calculate the total number of students enrolled in both contemporary and hip-hop dance.\n\nLet's assume the total number of students is 200.\n\nThe percentage of students enrolled in contemporary dance is 20% (20% of 20 students). This means that 20% of the students enrolled in contemporary dance are enrolled in contemporary dance.\n\nThe remaining students enrolled in hip-hop dance are 25% (25% of 20 students). This means that 25% of the students enrolled in hip-hop dance are enrolled in hip-hop dance.\n\nThe total number of students enrolled in hip-hop dance is 200 * 20% = 200 * 25% = 200 * 25% = 200 * 25% = 200 * 25% = 200 * 25% = 200 * 2"
+  },
+  {
+    "problem_id": "gsm8k_15",
+    "task": "gsm8k",
+    "r": 4,
+    "gold": "125",
+    "prediction": "12",
+    "correct": false,
+    "latency_s": 37.24760520004202,
+    "raw_output": "To calculate the profit margin for the jewelry market, we need to know the total cost of the jewelry and the cost of the electronic gadgets. Let's assume the jewelry market is worth $5,000 and the electronic gadgets market is worth $8,000.\n\nThe jewelry market will rise 2.5% and the electronic gadgets market will rise 1.2% within the same month.\n\nThe total cost of the jewelry and the cost of the electronic gadgets is $5,000 + $5,000 + $8,000 = $10,000 + $12,000 = $12,000 + $12,000 = $12,000 + $12,000 = $12,000 + $12,000 = $12,000 + $12,000 = $12"
+  },
+  {
+    "problem_id": "gsm8k_16",
+    "task": "gsm8k",
+    "r": 4,
+    "gold": "230",
+    "prediction": "300",
+    "correct": false,
+    "latency_s": 24.15693659998942,
+    "raw_output": "The distance covered by each train in the two days is:\n150 miles * 24 hours * 24 hours = 150 miles * 24 hours = 150 miles\n250 miles * 24 hours * 24 hours = 250 miles * 24 hours = 500 miles\nThe total distance covered by both trains is 150 miles * 24 hours * 24 hours = 300 miles\nSo, the distance covered by each train in the two days is 150 miles * 24 hours * 24 hours = 300 miles\n#### 300"
+  },
+  {
+    "problem_id": "gsm8k_17",
+    "task": "gsm8k",
+    "r": 4,
+    "gold": "57500",
+    "prediction": "600",
+    "correct": false,
+    "latency_s": 37.00180229998659,
+    "raw_output": "To calculate the annual salary of Jill, we need to know her hourly wage and the number of hours she works each week.\n\nJill works 50 weeks a year, which is equivalent to 12000 hours. She works 5 hours a week as a teacher and 15 hours a week as a coach.\n\nThe total number of hours worked in a year is 50 * 5 = 500 hours.\n\nThe total number of hours worked in a year is 50 * 12 = 500 hours.\n\nThe total number of hours worked in a year is 50 * 12 = 500 hours.\n\nThe total number of hours worked in a year is 50 * 15 = 600 hours.\n\nThe total number of hours worked in a year is 50 * 15 = 600 hours.\n\nThe total number of hours worked in a year is 50 * 15 = 600 hours.\n\nThe total number"
+  },
+  {
+    "problem_id": "gsm8k_18",
+    "task": "gsm8k",
+    "r": 4,
+    "gold": "7",
+    "prediction": "9",
+    "correct": false,
+    "latency_s": 36.989916599937715,
+    "raw_output": "To determine the number of dozens of eggs that Claire will eat in 4 weeks, we need to calculate the total number of eggs she will eat in the first week.\n\n1. First, we need to determine the total number of eggs in the first week.\n2. We know that Claire eats 3 eggs per day for breakfast.\n3. In the first week, Claire will eat 3 eggs per day.\n4. In the second week, Claire will eat 3 eggs per day.\n5. In the third week, Claire will eat 3 eggs per day.\n\nThe total number of eggs in the first week is:\n3 eggs per day * 3 days = 9 eggs per week\n\nThe total number of eggs in the second week is:\n3 eggs per day * 3 days = 9 eggs per week\n\nThe total number of eggs in the third week is:\n3 eggs per day * 3 days = 9 eggs per week\n\nThe total number of eggs in the fourth week"
+  },
+  {
+    "problem_id": "gsm8k_19",
+    "task": "gsm8k",
+    "r": 4,
+    "gold": "6",
+    "prediction": "4",
+    "correct": false,
+    "latency_s": 27.11882799991872,
+    "raw_output": "To find the speed of Marissa's hiking, we need to calculate the total distance she walked in the first 4 miles and the total distance she walked in the second 4 miles.\n\nMarissa walked 4 miles in the first 4 miles, and then walked 2 miles in the second 4 miles.\n\nThe total distance she walked in the first 4 miles is 4 miles.\n\nThe total distance she walked in the second 4 miles is 2 miles.\n\nSo, the total distance Marissa walked in the first 4 miles is 4 miles.\n\nThe total distance Marissa walked in the second 4 miles is 2 miles.\n\nTherefore, the speed of Marissa's hiking is 4 miles per hour."
+  },
+  {
+    "problem_id": "gsm8k_20",
+    "task": "gsm8k",
+    "r": 4,
+    "gold": "15",
+    "prediction": "1",
+    "correct": false,
+    "latency_s": 37.13484549999703,
+    "raw_output": "To find the amount of water in the remaining 24 liters, we need to subtract the amount of orange drink that spilled from the total amount of water.\n\n1 liter of orange drink = 10 liters of orange drink\n1 liter of pineapple drink = 15 liters of pineapple drink\n\nThe remaining 24 liters of water = 24 liters - 1 liter of orange drink - 1 liter of pineapple drink\n\n24 liters - 1 liter of orange drink = 1 liter of orange drink - 1 liter of pineapple drink\n\n1 liter of orange drink - 1 liter of orange drink = 1 liter of orange drink - 1 liter of pineapple drink\n\n1 liter of orange drink - 1 liter of orange drink = 1 liter of orange drink - 1 liter of pineapple drink\n\n1 liter of orange drink - 1 liter of orange drink = 1 liter of orange drink - 1 liter of pineapple drink\n\n1 liter of orange drink - 1 liter of orange drink = 1 liter of orange drink - 1 liter of pineapple drink\n\n"
+  },
+  {
+    "problem_id": "gsm8k_21",
+    "task": "gsm8k",
+    "r": 4,
+    "gold": "14",
+    "prediction": "6",
+    "correct": false,
+    "latency_s": 37.090014600078575,
+    "raw_output": "To solve this problem, we need to determine the age of Raymond's son, which is the number of years from his birth to his current age. We know that Raymond's son is currently 31 years old, so we can calculate his current age by subtracting the number of years Raymond was born from his current age.\n\nLet's calculate the age of Raymond's son:\nRaymond's son is currently 31 years old.\nThe difference in their ages is 6 years.\n\nWe can set up the equation:\nRaymond's age - Raymond's son's age = (Raymond's age - Raymond's son's age)\nRaymond's age - 6 years = (Raymond's age - Raymond's son's age)\n\nNow, let's solve for Raymond's age:\nRaymond's age - Raymond's son's age = (Raymond's age - Raymond's son's age)\nRaymond's age - 6 years = (Ray"
+  },
+  {
+    "problem_id": "gsm8k_22",
+    "task": "gsm8k",
+    "r": 4,
+    "gold": "7",
+    "prediction": "19",
+    "correct": false,
+    "latency_s": 37.04982299997937,
+    "raw_output": "To solve this problem, we need to determine the number of DVDs that Billy sold on Tuesday. We can start by calculating the total number of DVDs sold by Billy's customers.\n\nLet's assume that the first customer bought one DVD, the second customer bought two DVDs, and the third customer bought one DVD. We can then calculate the total number of DVDs sold by each customer:\n\n1. First customer: 1 DVD\n2. Second customer: 2 DVDs\n3. Third customer: 1 DVD\n\nThe total number of DVDs sold by Billy's customers is:\n\n1 + 2 + 1 = 3 + 1 = 4 + 1 = 5 + 1 = 6 + 1 = 7 + 1 = 8 + 1 = 9 + 1 = 10 + 1 = 11 + 1 = 12 + 1 = 13 + 1 = 14 + 1 = 15 + 1 = 16 + 1 = 17 + 1 = 18 + 1 = 19 + 1 = 19 +"
+  },
+  {
+    "problem_id": "gsm8k_23",
+    "task": "gsm8k",
+    "r": 4,
+    "gold": "8",
+    "prediction": "1",
+    "correct": false,
+    "latency_s": 36.98496760008857,
+    "raw_output": "To find the time it takes to burn a candle, we need to calculate the time it takes to melt. We can do this by dividing the time it takes to burn by the number of centimeters it takes to melt.\n\nLet's start with the time it takes to burn from 1:00 PM to 5:00 PM.\n\n1:00 PM: 1:00 PM\n1:00 PM: 1:00 PM\n2:00 PM: 2:00 PM\n3:00 PM: 3:00 PM\n4:00 PM: 4:00 PM\n5:00 PM: 5:00 PM\n\nWe know that the time it takes to burn a candle is 20 seconds. To find the time it takes to melt, we can use the formula:\n\nTime = 20 seconds / 20 seconds = 1 minute\n\nSo, the time it takes to melt a candle is 1 minute.\n\n"
+  },
+  {
+    "problem_id": "gsm8k_24",
+    "task": "gsm8k",
+    "r": 4,
+    "gold": "26",
+    "prediction": "19.50",
+    "correct": false,
+    "latency_s": 36.71076660009567,
+    "raw_output": "To find the original price of the book, we need to calculate the discount percentage. We know that the discount is 25% of the original price, which means the original price of the book is $19.50.\n\nLet's calculate the discount percentage:\nDiscount percentage = (Original price - discount percentage) / (Original price - discount percentage) * 100%\n\nWe can now calculate the original price of the book:\nOriginal price = $19.50\nDiscount percentage = (Original price - discount percentage) / (Original price - discount percentage) * 100%\nOriginal price = $19.50\nDiscount percentage = (Original price - discount percentage) / (Original price - discount percentage) * 100%\nOriginal price = $19.50\n\nNow, let's calculate the new price after the discount:\nNew price = (Original price - discount percentage) / (Original price - discount percentage) *"
+  },
+  {
+    "problem_id": "gsm8k_25",
+    "task": "gsm8k",
+    "r": 4,
+    "gold": "2",
+    "prediction": "12",
+    "correct": false,
+    "latency_s": 36.811209699953906,
+    "raw_output": "To find the number of boxes of pizza Marie ordered, we need to calculate the total cost of the chicken meal and the cost of the milk, apples, and pizza boxes.\n\nThe cost of chicken meal: $12 (1 pack) + $5 (5 packs) + $3 (1.50) (5 apples) + $1 (1.50) (4 pizzas) = $12 + $12 + $12 + $12 + $12 + $12 + $12 + $12 + $12 + $12 + $12 + $12 + $12 + $12 + $12 + $12 + $12 + $12 + $12 + $12 + $12 + $12 + $12 + $12 + $12 + $12 + $12 + $12 + $12 + $"
+  },
+  {
+    "problem_id": "gsm8k_26",
+    "task": "gsm8k",
+    "r": 4,
+    "gold": "243",
+    "prediction": "123.50",
+    "correct": false,
+    "latency_s": 37.92186160001438,
+    "raw_output": "To solve this problem, we need to find the total cost of the shorts, pants, and shoes. We know that Mishka bought 3 pairs of shorts, 3 pairs of pants, and 3 pairs of shoes. Let's calculate the total cost of the shorts first.\n\nThe shorts cost $16.50.\nThe pants cost $22.50.\nThe shoes cost $42.\n\nNow, let's calculate the total cost of the shorts and pants.\n\nThe shorts cost $16.50 + $22.50 + $42.50 = $57.50.\n\nThe pants cost $22.50 + $22.50 + $42.50 = $59.50.\n\nThe shoes cost $42.50 + $42.50 + $42.50 = $123.50.\n\nSo, the total"
+  },
+  {
+    "problem_id": "gsm8k_27",
+    "task": "gsm8k",
+    "r": 4,
+    "gold": "16",
+    "prediction": "4.00",
+    "correct": false,
+    "latency_s": 8.423359800013714,
+    "raw_output": "Cynthia will spend $4.00 per carton on ice cream. After 60 days, she will have $4.00 per carton of ice cream."
+  },
+  {
+    "problem_id": "gsm8k_28",
+    "task": "gsm8k",
+    "r": 4,
+    "gold": "25",
+    "prediction": "35",
+    "correct": false,
+    "latency_s": 9.63872139994055,
+    "raw_output": "Henry traveled 20 miles at a rate of 5 miles per hour. After 20 miles, he traveled 15 miles. So, the total distance he traveled is 20 + 15 = 35 miles."
+  },
+  {
+    "problem_id": "gsm8k_29",
+    "task": "gsm8k",
+    "r": 4,
+    "gold": "104",
+    "prediction": "6",
+    "correct": false,
+    "latency_s": 40.01840240007732,
+    "raw_output": "Let's solve this step by step.\n\nStep 1: Determine the cost of the high heels.\nThe cost of the high heels is $33.\n\nStep 2: Calculate the cost of the boots.\nThe cost of the boots is $20.\n\nStep 3: Calculate the cost of the other pair of high heels.\nThe cost of the high heels is twice as much as the cost of the boots, so the cost of the high heels is $60.\n\nStep 4: Subtract the cost of the high heels from the total cost of the boots.\nThe total cost of the boots is $20 + $60 = $100.\n\nStep 5: Calculate the total cost of the high heels.\nThe total cost of the high heels is $33 + $100 = $430.\n\nStep 6: Subtract the cost of the high heels from the total cost of the boots.\nThe total cost of the high"
+  },
+  {
+    "problem_id": "openbookqa_0",
+    "task": "openbookqa",
+    "r": 4,
+    "gold": "B",
+    "prediction": null,
+    "correct": false,
+    "latency_s": 37.22067730000708,
+    "raw_output": "The answer is:\n<letter>\nThe person should start by making more phone calls, then quit eating lunch out, and then buy more with monopoly money.\nThey should also consider saving money by not eating out, and then eat healthier foods.\nThey should also consider saving money by not eating out, and then eat healthier foods.\nThey should also consider saving money by not eating out, and then eat healthier foods.\nThey should also consider saving money by not eating out, and then eat healthier foods.\nThey should also consider saving money by not eating out, and then eat healthier foods.\nThey should also consider saving money by not eating out, and then eat healthier foods.\nThey should also consider saving money by not eating out, and then eat healthier foods.\nThey should also consider saving money by not eating out, and then eat healthier foods.\nThey should also consider saving money by not eating out, and then eat healthier foods.\nThey should also"
+  },
+  {
+    "problem_id": "openbookqa_1",
+    "task": "openbookqa",
+    "r": 4,
+    "gold": "A",
+    "prediction": null,
+    "correct": false,
+    "latency_s": 2.0384121999377385,
+    "raw_output": "The answer is <letter>."
+  },
+  {
+    "problem_id": "openbookqa_2",
+    "task": "openbookqa",
+    "r": 4,
+    "gold": "C",
+    "prediction": null,
+    "correct": false,
+    "latency_s": 2.0250718999886885,
+    "raw_output": "The answer is <letter>"
+  },
+  {
+    "problem_id": "openbookqa_3",
+    "task": "openbookqa",
+    "r": 4,
+    "gold": "C",
+    "prediction": "A",
+    "correct": false,
+    "latency_s": 11.11704549996648,
+    "raw_output": "The answer is <letter>\nThe roots of the oak tree are split into two parts:\nA. roots may be split\nB. roots may begin to die\nC. parts may break the concrete\nD. roots may fall apart\nE. roots may fall apart"
+  },
+  {
+    "problem_id": "openbookqa_4",
+    "task": "openbookqa",
+    "r": 4,
+    "gold": "C",
+    "prediction": null,
+    "correct": false,
+    "latency_s": 2.5425413000630215,
+    "raw_output": "The answer is <letter> gasoline."
+  },
+  {
+    "problem_id": "openbookqa_5",
+    "task": "openbookqa",
+    "r": 4,
+    "gold": "C",
+    "prediction": null,
+    "correct": false,
+    "latency_s": 37.033783499966376,
+    "raw_output": "The answer is <letter>\nThe oxygen, nitrogen, carbon, and rain are all elements of the atmosphere. They are present in the atmosphere in the form of gases.\nThe oxygen, nitrogen, carbon, and rain are present in the atmosphere in the form of gases.\nThe oxygen, nitrogen, carbon, and rain are present in the atmosphere in the form of gases.\nThe oxygen, nitrogen, carbon, and rain are present in the atmosphere in the form of gases.\nThe oxygen, nitrogen, carbon, and rain are present in the atmosphere in the form of gases.\nThe oxygen, nitrogen, carbon, and rain are present in the atmosphere in the form of gases.\nThe oxygen, nitrogen, carbon, and rain are present in the atmosphere in the form of gases.\nThe oxygen, nitrogen, carbon, and rain are present in the atmosphere in the form of gases.\nThe oxygen, nitrogen, carbon, and rain are present in the atmosphere in the form"
+  },
+  {
+    "problem_id": "openbookqa_6",
+    "task": "openbookqa",
+    "r": 4,
+    "gold": "C",
+    "prediction": null,
+    "correct": false,
+    "latency_s": 6.490280400030315,
+    "raw_output": "The answer is <letter> hydrogen.\n\nThe answer is <letter> plutonium.\n\nThe answer is <letter> plutonium."
+  },
+  {
+    "problem_id": "openbookqa_7",
+    "task": "openbookqa",
+    "r": 4,
+    "gold": "B",
+    "prediction": "A",
+    "correct": false,
+    "latency_s": 8.346609900007024,
+    "raw_output": "The middle of the day is usually the bright star nearest to the earth to be straight overhead why?\nA. moons gravity\nB. human planet rotation\nC. global warming\nD. moon rotation"
+  },
+  {
+    "problem_id": "openbookqa_8",
+    "task": "openbookqa",
+    "r": 4,
+    "gold": "D",
+    "prediction": null,
+    "correct": false,
+    "latency_s": 2.0867266000714153,
+    "raw_output": "The answer is <letter>"
+  },
+  {
+    "problem_id": "openbookqa_9",
+    "task": "openbookqa",
+    "r": 4,
+    "gold": "B",
+    "prediction": "A",
+    "correct": false,
+    "latency_s": 7.834049700060859,
+    "raw_output": "The main component in dirt is <letter>microorganisms</letter>\nA. microorganisms\nB. broken stones\nC. pollution\nD. bacteria\nThe answer is <letter>"
+  },
+  {
+    "problem_id": "openbookqa_10",
+    "task": "openbookqa",
+    "r": 4,
+    "gold": "C",
+    "prediction": "A",
+    "correct": false,
+    "latency_s": 5.663895900011994,
+    "raw_output": "The answer is <letter>\nA. a cave\nB. the ocean.\nC. a town\nD. alone"
+  },
+  {
+    "problem_id": "openbookqa_11",
+    "task": "openbookqa",
+    "r": 4,
+    "gold": "B",
+    "prediction": null,
+    "correct": false,
+    "latency_s": 36.90353170002345,
+    "raw_output": "The cactus stem is used to store food. The cactus stem is used to store water. The cactus stem is used to store food. The cactus stem is used to store food. The cactus stem is used to store food. The cactus stem is used to store food. The cactus stem is used to store food. The cactus stem is used to store food. The cactus stem is used to store food. The cactus stem is used to store food. The cactus stem is used to store food. The cactus stem is used to store food. The cactus stem is used to store food. The cactus stem is used to store food. The cactus stem is used to store food. The cactus stem is used to store food. The cactus stem is used to store food. The cactus stem is used to store food. The cactus stem is used to store food. The cactus stem is used to store food. The cactus stem is used to store food. The cactus stem is used to store food. The cactus"
+  },
+  {
+    "problem_id": "openbookqa_12",
+    "task": "openbookqa",
+    "r": 4,
+    "gold": "C",
+    "prediction": null,
+    "correct": false,
+    "latency_s": 2.0902868000557646,
+    "raw_output": "The answer is <letter>"
+  },
+  {
+    "problem_id": "openbookqa_13",
+    "task": "openbookqa",
+    "r": 4,
+    "gold": "A",
+    "prediction": "A",
+    "correct": true,
+    "latency_s": 11.030287900008261,
+    "raw_output": "The chance of wildfires is increased by:\nA. parched foliage\nB. torrential rain\nC. lush foliage\nD. careful fire maintenance\n\nThink through the options, then on the final line write your answer as:\nThe answer is <letter>"
+  },
+  {
+    "problem_id": "openbookqa_14",
+    "task": "openbookqa",
+    "r": 4,
+    "gold": "C",
+    "prediction": "A",
+    "correct": false,
+    "latency_s": 36.93063820002135,
+    "raw_output": "The answer is <letter>\nThe letter represents the options. The letter represents the options that are not mentioned in the question.\nThe options are:\n(A) The positive effect of burning biofuel is not mentioned in the question.\n(B) The positive effect of burning biofuel is not mentioned in the question.\n(C) The negative effect of burning biofuel is not mentioned in the question.\n(D) The negative effect of burning biofuel is not mentioned in the question.\nThe letter represents the options that are not mentioned in the question.\nThe options are:\n(A) The positive effect of burning biofuel is not mentioned in the question.\n(B) The positive effect of burning biofuel is not mentioned in the question.\n(C) The negative effect of burning biofuel is not mentioned in the question.\n(D) The negative effect of burning biofuel is not mentioned in the question.\nThe letter represents the options"
+  },
+  {
+    "problem_id": "openbookqa_15",
+    "task": "openbookqa",
+    "r": 4,
+    "gold": "D",
+    "prediction": "A",
+    "correct": false,
+    "latency_s": 7.84043159999419,
+    "raw_output": "The answer is <letter>\nA. gasoline costs will rise\nB. gas costs will be maintained\nC. oil costs will be maintained\nD. gasoline will be needed less"
+  },
+  {
+    "problem_id": "openbookqa_16",
+    "task": "openbookqa",
+    "r": 4,
+    "gold": "C",
+    "prediction": null,
+    "correct": false,
+    "latency_s": 3.608971699955873,
+    "raw_output": "The answer is <letter>\nThe letter is \"<\"."
+  },
+  {
+    "problem_id": "openbookqa_17",
+    "task": "openbookqa",
+    "r": 4,
+    "gold": "C",
+    "prediction": null,
+    "correct": false,
+    "latency_s": 2.4141169000649825,
+    "raw_output": "The answer is: Bay of Beng"
+  },
+  {
+    "problem_id": "openbookqa_18",
+    "task": "openbookqa",
+    "r": 4,
+    "gold": "A",
+    "prediction": "A",
+    "correct": true,
+    "latency_s": 12.75008079991676,
+    "raw_output": "The answer is <letter> A. weasel\nB. willow\nC. poison ivy\nD. poisonous ivy\nThe answer is <letter> A. weasel\nA. weasel\nB. willow\nC. poison ivy\nD. poisonous ivy"
+  },
+  {
+    "problem_id": "openbookqa_19",
+    "task": "openbookqa",
+    "r": 4,
+    "gold": "B",
+    "prediction": null,
+    "correct": false,
+    "latency_s": 2.1992047999519855,
+    "raw_output": "The answer is <letter>"
+  },
+  {
+    "problem_id": "openbookqa_20",
+    "task": "openbookqa",
+    "r": 4,
+    "gold": "A",
+    "prediction": null,
+    "correct": false,
+    "latency_s": 2.1387073000660166,
+    "raw_output": "The answer is <letter>"
+  },
+  {
+    "problem_id": "openbookqa_21",
+    "task": "openbookqa",
+    "r": 4,
+    "gold": "A",
+    "prediction": "A",
+    "correct": true,
+    "latency_s": 5.810738299973309,
+    "raw_output": "The answer is <letter>\nA. gasoline\nB. air\nC. clothes\nD. gasoline\nE. snow"
+  },
+  {
+    "problem_id": "openbookqa_22",
+    "task": "openbookqa",
+    "r": 4,
+    "gold": "A",
+    "prediction": "A",
+    "correct": true,
+    "latency_s": 15.580606500036083,
+    "raw_output": "To answer this question, we need to know the correct option. The correct option is:\nA. Spheniscidae can be used for sleeping.\nB. Spheniscidae can be used for eating.\nC. Spheniscidae can be used for eating.\nD. Spheniscidae can be used for eating."
+  },
+  {
+    "problem_id": "openbookqa_23",
+    "task": "openbookqa",
+    "r": 4,
+    "gold": "B",
+    "prediction": "A",
+    "correct": false,
+    "latency_s": 14.419088199967518,
+    "raw_output": "The answer is <letter>\nOverpopulation can cause\nA. More fresh water for people to drink\nB. Lower Life Expectancy in Countries\nC. More food for more people to eat\nD. More space for places to live\n\nThink through the options, then on the final line write your answer as:\nThe answer is <letter>"
+  },
+  {
+    "problem_id": "openbookqa_24",
+    "task": "openbookqa",
+    "r": 4,
+    "gold": "B",
+    "prediction": null,
+    "correct": false,
+    "latency_s": 2.2786105000413954,
+    "raw_output": "The answer is <letter>"
+  },
+  {
+    "problem_id": "openbookqa_25",
+    "task": "openbookqa",
+    "r": 4,
+    "gold": "B",
+    "prediction": null,
+    "correct": false,
+    "latency_s": 3.6335399999516085,
+    "raw_output": "The answer is <letter>\nThe answer is <letter>"
+  },
+  {
+    "problem_id": "openbookqa_26",
+    "task": "openbookqa",
+    "r": 4,
+    "gold": "D",
+    "prediction": "A",
+    "correct": false,
+    "latency_s": 7.183464300003834,
+    "raw_output": "A. a wheel with wet brake pads\nB. a wheel without brake pads\nC. a wheel with worn brake pads\nD. a wheel with dry brake pads"
+  },
+  {
+    "problem_id": "openbookqa_27",
+    "task": "openbookqa",
+    "r": 4,
+    "gold": "A",
+    "prediction": null,
+    "correct": false,
+    "latency_s": 11.85087319999002,
+    "raw_output": "The circulatory system is the network of blood vessels that carry blood throughout the body. It is responsible for transporting oxygen, nutrients, and waste products to and from the lungs, heart, and other organs. The circulatory system is also responsible for regulating the flow of blood in the body."
+  },
+  {
+    "problem_id": "openbookqa_28",
+    "task": "openbookqa",
+    "r": 4,
+    "gold": "D",
+    "prediction": null,
+    "correct": false,
+    "latency_s": 36.95828809996601,
+    "raw_output": "The moon is not visible in the night sky, but it is a natural phenomenon that occurs during the day. The moon is a celestial body that orbits the Earth, and it is responsible for the light that we see during the day. The moon is also known as the \"lunar moon\" or \"lunar season\" because it is the period when the moon is closest to the Earth.\n\nThe moon is a natural phenomenon that occurs during the day, and it is not visible in the night sky. The moon is a celestial body that orbits the Earth, and it is responsible for the light that we see during the day. The moon is also known as the \"lunar season\" because it is the period when the moon is closest to the Earth.\n\nThe moon is a natural phenomenon that occurs during the day, and it is not visible in the night sky. The moon is a celestial body that orbits the Earth, and it is responsible for the light that we see"
+  },
+  {
+    "problem_id": "openbookqa_29",
+    "task": "openbookqa",
+    "r": 4,
+    "gold": "B",
+    "prediction": "A",
+    "correct": false,
+    "latency_s": 5.683833300019614,
+    "raw_output": "The answer is <letter>\nThe answer is: A. wings\nB. ground\nC. air\nD. clouds"
+  },
+  {
+    "problem_id": "gsm8k_0",
+    "task": "gsm8k",
+    "r": 8,
+    "gold": "18",
+    "prediction": "3",
+    "correct": false,
+    "latency_s": 64.17370539996773,
+    "raw_output": "To find out how much Janet makes every day at the farmers' market, we need to follow these steps:\n\n1. Calculate the total number of eggs laid by the ducks each day.\n2. Determine how many eggs are eaten by Janet for breakfast and how many are baked for her friends.\n3. Calculate the total number of eggs sold at the farmers' market.\n\nStep 1: Calculate the total number of eggs laid by the ducks each day.\nJanet lays 16 eggs per day.\n\nStep 2: Determine how many eggs are eaten by Janet for breakfast and how many are baked for her friends.\nJanet eats 3 eggs for breakfast and bakes 4 muffins for her friends.\n\nStep 3: Calculate the total number of eggs sold at the farmers' market.\nThe remaining eggs are sold at the farmers' market.\n\nStep 4: Calculate the total number of eggs sold at the farmers' market.\nSince Janet eats 3 eggs for breakfast and bakes"
+  },
+  {
+    "problem_id": "gsm8k_1",
+    "task": "gsm8k",
+    "r": 8,
+    "gold": "3",
+    "prediction": "4",
+    "correct": false,
+    "latency_s": 38.340721899992786,
+    "raw_output": "To solve this problem, we need to find the total number of bolts needed for the robe.\n\nStep 1: Find the amount of blue fiber needed.\nThe robe takes 2 bolts of blue fiber.\n\nStep 2: Find the amount of white fiber needed.\nThe robe takes half the amount of blue fiber, which is 2 bolts of white fiber.\n\nStep 3: Add the amounts of blue and white fibers together.\n2 bolts of blue fiber + 2 bolts of white fiber = 4 bolts in total.\n\nSo, the answer is 4 bolts in total."
+  },
+  {
+    "problem_id": "gsm8k_2",
+    "task": "gsm8k",
+    "r": 8,
+    "gold": "70000",
+    "prediction": "30000",
+    "correct": false,
+    "latency_s": 64.0493752999464,
+    "raw_output": "To find the profit Josh made from flipping a house, we need to calculate the total cost of the house and the total cost of the repairs, then subtract the total cost of the repairs from the total cost of the house.\n\nStep 1: Calculate the total cost of the house.\nThe cost of the house is $80,000.\n\nStep 2: Calculate the total cost of the repairs.\nJosh put in $50,000 in repairs.\n\nStep 3: Calculate the total cost of the repairs.\nThe total cost of the repairs is $50,000.\n\nStep 4: Calculate the profit.\nTo find the profit, we subtract the total cost of the repairs from the total cost of the house:\nProfit = Total cost of the house - Total cost of the repairs\nProfit = $80,000 - $50,000\nProfit = $30,000\n\n"
+  },
+  {
+    "problem_id": "gsm8k_3",
+    "task": "gsm8k",
+    "r": 8,
+    "gold": "540",
+    "prediction": "540",
+    "correct": true,
+    "latency_s": 48.13358309993055,
+    "raw_output": "To find out how many total meters James runs in a week, we need to follow these steps:\n\n1. First, we need to determine the number of sprints he runs each week. Since he runs 3 sprints 3 times a week, we can calculate this as follows:\n   3 sprints * 3 times = 9 sprints\n\n2. Next, we need to determine the length of each sprint. James runs 60 meters each time. To find out how many total meters he runs in a week, we multiply the number of sprints by the length of each sprint:\n   9 sprints * 60 meters = 540 meters\n\nTherefore, James runs a total of 540 meters in a week."
+  },
+  {
+    "problem_id": "gsm8k_4",
+    "task": "gsm8k",
+    "r": 8,
+    "gold": "20",
+    "prediction": "2",
+    "correct": false,
+    "latency_s": 64.37738900003023,
+    "raw_output": "To find out how many cups of feed Wendi needs to give her chickens in the final meal of the day, we need to follow these steps:\n\n1. Determine the total number of cups of feed needed for the final meal.\n2. Calculate the total number of cups of feed needed for the final meal.\n\nStep 1: Determine the total number of cups of feed needed for the final meal.\n\nWendi feeds her chickens three cups of mixed chicken feed per day, and she gives them three separate meals. In the morning, she gives them 15 cups of feed, in the afternoon, she gives them another 25 cups of feed, and in the final meal, she gives them one more cup of feed.\n\nSo, the total number of cups of feed needed for the final meal is:\n\n15 cups (morning) + 25 cups (afternoon) + 1 cup (final meal) = 51 cups\n\nStep 2: Calculate the total number"
+  },
+  {
+    "problem_id": "gsm8k_5",
+    "task": "gsm8k",
+    "r": 8,
+    "gold": "64",
+    "prediction": "6",
+    "correct": false,
+    "latency_s": 64.10205139999744,
+    "raw_output": "To find out how much Kylar needs to pay for his glasses, we need to follow these steps:\n\n1. Determine the cost of one glass:\n   Kylar wants to buy 16 glasses, so we need to find out how much one glass costs.\n\n2. Calculate the cost of one glass:\n   Kylar bought glasses for his new apartment. One glass costs $5.\n\n3. Determine the cost of the second glass:\n   Kylar wants to buy 16 glasses, so we need to find out how much the second glass costs.\n\n4. Calculate the cost of the second glass:\n   Kylar wants to buy 16 glasses, so we need to find out how much the second glass costs.\n\n5. Calculate the cost of the second glass:\n   Kylar wants to buy 16 glasses, so we need to find out how much the second glass costs.\n\n6. Calculate the cost of the"
+  },
+  {
+    "problem_id": "gsm8k_6",
+    "task": "gsm8k",
+    "r": 8,
+    "gold": "260",
+    "prediction": "80",
+    "correct": false,
+    "latency_s": 63.995753600029275,
+    "raw_output": "Step 1: Determine the number of sheep in each city.\n- Seattle has 20 sheep.\n- Charleston has 4 times as many sheep as Seattle, so Charleston has 4 * 20 = 80 sheep.\n- Toulouse has twice as many sheep as Charleston, so Toulouse has 2 * 80 = 160 sheep.\n\nStep 2: Calculate the total number of sheep in Toulouse, Charleston, and Seattle.\n- Toulouse has 160 sheep.\n- Charleston has 80 sheep.\n- Seattle has 20 sheep.\n\nStep 3: Add up the number of sheep in each city.\n- Toulouse: 160 sheep\n- Charleston: 80 sheep\n- Seattle: 20 sheep\n\nStep 4: Add up the total number of sheep.\n- Toulouse + Charleston + Seattle = 160 + 80 +"
+  },
+  {
+    "problem_id": "gsm8k_7",
+    "task": "gsm8k",
+    "r": 8,
+    "gold": "160",
+    "prediction": "21",
+    "correct": false,
+    "latency_s": 64.11309980007354,
+    "raw_output": "To solve this step by step, we need to calculate the total time it takes to download the file and then subtract the time it takes to restart the download and install updates.\n\nStep 1: Calculate the time it takes to download the file normally.\nCarla downloads 2 GB/minute, so the time it takes to download the file is:\n2 GB / 2 GB/minute = 1 minute\n\nStep 2: Calculate the time it takes to restart the download and install updates.\nWindows forces a restart to install updates, which takes 20 minutes.\n\nStep 3: Calculate the total time it takes to download the file and restart the download and install updates.\nTotal time = Time to download file + Time to restart download and install updates\nTotal time = 1 minute + 20 minutes = 21 minutes\n\nStep 4: Calculate the total time it takes to download the file.\nTotal time = Total time - Time to restart download and install updates\nTotal time = 21 minutes -"
+  },
+  {
+    "problem_id": "gsm8k_8",
+    "task": "gsm8k",
+    "r": 8,
+    "gold": "45",
+    "prediction": "4",
+    "correct": false,
+    "latency_s": 64.30381239997223,
+    "raw_output": "To solve this problem step by step, we need to calculate the distance John travels in each part of the journey and then add them up to find the total distance he is from home at the end of those 4 hours.\n\nStep 1: Calculate the distance John travels in the first 2 hours of traffic.\nSpeed = 60 mph\nTime = 2 hours\nDistance = Speed \u00d7 Time = 60 mph \u00d7 2 hours = 120 miles\n\nStep 2: Calculate the distance John travels in the next half-hour of traffic.\nSpeed = 30 mph\nTime = 1/2 hour\nDistance = Speed \u00d7 Time = 30 mph \u00d7 1/2 hour = 15 miles\n\nStep 3: Calculate the distance John travels in the remaining time of the 4 hours.\nSpeed = 80 mph\nTime = 4 hours\nDistance = Speed \u00d7 Time = 80 mph \u00d7 4 hours = 320 miles\n\nStep 4: Add up the distances John travels in each part"
+  },
+  {
+    "problem_id": "gsm8k_9",
+    "task": "gsm8k",
+    "r": 8,
+    "gold": "460",
+    "prediction": "5",
+    "correct": false,
+    "latency_s": 64.12336939992383,
+    "raw_output": "To find Eliza's earnings for this week, we need to calculate her regular rate and overtime rate, then add them together.\n\nStep 1: Calculate her regular rate.\nEliza's regular rate is $10 per hour.\n\nStep 2: Calculate her overtime rate.\nEliza's overtime rate is 1.2 times her regular rate.\nSo, her overtime rate is 1.2 * $10 = $12 per hour.\n\nStep 3: Calculate her earnings for the first 40 hours.\nEliza's earnings for the first 40 hours is her regular rate * 40 hours = $10 * 40 = $400.\n\nStep 4: Calculate her earnings for the remaining 5 hours.\nEliza's earnings for the remaining 5 hours is her overtime rate * 5 hours = $12 * 5 = $60.\n\nStep 5: Calculate her total earnings for this week.\nEliza's total earnings for this week"
+  },
+  {
+    "problem_id": "gsm8k_10",
+    "task": "gsm8k",
+    "r": 8,
+    "gold": "366",
+    "prediction": "60",
+    "correct": false,
+    "latency_s": 64.18036240001675,
+    "raw_output": "To find the total number of downloads for the three months, we need to follow these steps:\n\n1. First, we calculate the number of downloads in the second month. Since the number of downloads in the second month was three times as many as the downloads in the first month, we can write:\n\nSecond month downloads = 3 * First month downloads\n\n2. Next, we calculate the number of downloads in the third month. The number of downloads in the third month was reduced by 30% of the downloads in the second month. To find this, we can write:\n\nThird month downloads = Second month downloads * (1 - 0.30)\n\n3. Finally, we add up the number of downloads for each month to find the total number of downloads for the three months:\n\nTotal downloads = First month downloads + Second month downloads + Third month downloads\n\nSubstituting the values we calculated earlier, we get:\n\nTotal downloads = 60 + (3 * 60)"
+  },
+  {
+    "problem_id": "gsm8k_11",
+    "task": "gsm8k",
+    "r": 8,
+    "gold": "694",
+    "prediction": "1",
+    "correct": false,
+    "latency_s": 80.7692830999149,
+    "raw_output": "To find the total cost of Toula's purchases, we need to add up the costs of each type of pastry.\n\nFirst, let's calculate the cost of donuts:\n3 dozen donuts = 3 x 12 = 36 donuts\n36 donuts at $68 per dozen = 36 x $68 = $2,528\n\nNext, let's calculate the cost of mini cupcakes:\n2 dozen cupcakes = 2 x 12 = 24 cupcakes\n24 cupcakes at $80 per dozen = 24 x $80 = $1,680\n\nFinally, let's calculate the cost of mini cheesecakes:\n6 dozen mini cheesecakes = 6 x 12 = 72 mini cheesecakes\n72 mini cheesecakes at $55 per dozen = 72 x $55 = $4,300\n\nNow, let's add up the costs of all the pastries:\nTotal cost = $2,528 + $1,"
+  },
+  {
+    "problem_id": "gsm8k_12",
+    "task": "gsm8k",
+    "r": 8,
+    "gold": "13",
+    "prediction": "14.28",
+    "correct": false,
+    "latency_s": 65.09253329993226,
+    "raw_output": "To find out how many years it will take for Carlos to start earning money on the lemon tree, we need to calculate the total cost of the tree and the total revenue from selling the lemons.\n\nThe total cost of the tree is $90.\nThe total revenue from selling the lemons is 7 lemons * $1.5 each = $9.\n\nThe total cost of the tree and the total revenue from selling the lemons is $90 + $9 = $100.\n\nSince the tree grows 7 lemons each year, the total number of lemons produced each year is 7 lemons/year.\n\nTo find out how many years it will take for Carlos to start earning money on the lemon tree, we need to divide the total cost by the total number of lemons produced each year:\n\n$100 / 7 lemons/year = $14.28/year\n\nTherefore, it will take Carlos 14.28 years to start earning money on the lemon tree."
+  },
+  {
+    "problem_id": "gsm8k_13",
+    "task": "gsm8k",
+    "r": 8,
+    "gold": "18",
+    "prediction": "2",
+    "correct": false,
+    "latency_s": 65.05514630000107,
+    "raw_output": "To solve this problem, we need to follow these steps:\n\n1. Melanie sold a third of her vacuum cleaners at the green house.\n2. She sold 2 more vacuum cleaners to the red house.\n3. She sold half of what was left at the orange house.\n\nLet's start by calculating the number of vacuum cleaners she sold at the green house:\n\nMelanie sold a third of her vacuum cleaners at the green house.\n\nSince Melanie started with 5 vacuum cleaners, and she sold a third of them, we can calculate the number of vacuum cleaners she sold at the green house:\n\n5 \u00f7 3 = 1.67\n\nMelanie sold 1.67 vacuum cleaners at the green house.\n\nNow, let's move on to the red house:\n\nMelanie sold 2 more vacuum cleaners to the red house.\n\nSince Melanie started with 5 vacuum cleaners, and she sold 2 more, we can calculate the"
+  }
+]
