@@ -1,0 +1,364 @@
+{
+  "central_claim": "Increasing inference compute improves accuracy up to a task-dependent saturation point, beyond which extra compute adds cost and latency without reliable accuracy gain.",
+  "methods": [
+    { "id": "best_of_n", "label": "Best-of-N" },
+    { "id": "beam_search", "label": "Beam search" },
+    { "id": "latent_compute", "label": "Latent compute scaling" },
+    { "id": "budget_forcing", "label": "Budget forcing" }
+  ],
+  "systems": [
+    { "id": "transformer", "label": "Transformer" },
+    { "id": "huginn", "label": "Huginn-0125" },
+    { "id": "bdh_cq", "label": "BDH-CQ" }
+  ],
+  "evidence_tiers": {
+    "orange": { "label": "Our sweep", "description": "We ran it. Per-problem, checkable against gold answers." },
+    "purple": { "label": "Published", "description": "Reported by authors. Not reproduced by us." },
+    "grey": { "label": "Reasoning / equations", "description": "Architectural argument from primary sources." },
+    "green": { "label": "Live", "description": "Running in the browser right now." }
+  },
+  "cells": {
+    "transformer__best_of_n": {
+      "has_results": true,
+      "evidence_tier": "orange",
+      "mechanism": {
+        "text": "Sample N independent completions at temperature > 0, take majority vote on final answer.",
+        "equations": [],
+        "source": null
+      },
+      "results": {
+        "note": "Our own sweep, N in {1,2,4,8,16}, GSM8K, per-problem results.",
+        "source": "Our sweep (experiment/bon_sweep.py)",
+        "task": "gsm8k",
+        "budget_variable": "N",
+        "data_ref": "results.json: transformer_qwen2.5-1.5b-instruct__best_of_n__gsm8k",
+        "slider": {
+          "variable": "N",
+          "description": "Reveals per-problem prediction vs. gold answer -- learner can verify correctness themselves."
+        }
+      }
+    },
+    "transformer__beam_search": {
+      "has_results": true,
+      "evidence_tier": "purple",
+      "mechanism": {
+        "text": "A process reward model (PRM) scores each intermediate solution step. Keep top N/M candidates, branch M proposals from each, repeat.",
+        "equations": [],
+        "source": "Snell, Lee, Xu, Kumar (2024). arXiv:2408.03314."
+      },
+      "results": {
+        "note": "Snell et al. 2024, MATH benchmark, Figures 3 and 4.",
+        "source": "Snell et al. 2024, arXiv:2408.03314, Figures 3-4",
+        "task": "math",
+        "budget_variable": "generation_budget",
+        "key_teaching_point": "Beam search degrades performance on EASY questions as budget grows -- over-optimization against the PRM. It outperforms best-of-N on harder questions at lower budgets.",
+        "slider": {
+          "variable": "generation_budget",
+          "description": "Walks the published curve."
+        },
+        "curve_data": null,
+        "TODO": "BLOCKING: no digitized numeric data from Snell et al. Fig 3/4 exists yet. Do not fabricate points. Needs exact data (table or digitized figure values) supplied before this panel can render a chart. Mechanism text and evidence tag can ship without it; the chart cannot."
+      }
+    },
+    "transformer__latent_compute": {
+      "has_results": false,
+      "evidence_tier": "grey",
+      "mechanism": {
+        "text": "Standard transformers have a fixed number of layers set at training time. There is no dial to iterate depth further at inference.",
+        "pointer": "See the Huginn-0125 panel -- it is the architecture built for this.",
+        "equations": [],
+        "source": null
+      },
+      "results": null
+    },
+    "huginn__best_of_n": {
+      "has_results": false,
+      "evidence_tier": "grey",
+      "mechanism": {
+        "text": "This method is compatible with Huginn in principle -- it generates tokens like any autoregressive model. We did not run this sweep. Unstudied by us.",
+        "equations": [],
+        "source": null
+      },
+      "results": null
+    },
+    "huginn__beam_search": {
+      "has_results": false,
+      "evidence_tier": "grey",
+      "mechanism": {
+        "text": "This method is compatible with Huginn in principle -- it generates tokens like any autoregressive model. We did not run this sweep. Unstudied by us.",
+        "equations": [],
+        "source": null
+      },
+      "results": null
+    },
+    "huginn__latent_compute": {
+      "has_results": false,
+      "evidence_tier": "grey",
+      "mechanism": {
+        "text": "The same recurrent block is applied r times before decoding a token.",
+        "equations": [
+          { "expr": "s_i = R(e, s_{i-1})", "note": "for i = 1..r" },
+          { "expr": "p = C(s_r)", "note": null }
+        ],
+        "gap": "We attempted our own sweep (r in {1,4,8,16,32,64}, 30 GSM8K + 30 OpenBookQA problems) on an 8GB laptop GPU. Huginn-0125 is a 3.5B-parameter model; bf16 weights alone leave almost no headroom on 8GB VRAM. r=1 completed, but r=4 and r=8 both OOM'd consistently, even after reducing generation length and clearing the CUDA cache between calls. This is an infrastructure gap, not an architectural one -- the r dial genuinely exists and works, we just couldn't run it far enough to chart on this hardware.",
+        "source": "Geiping et al. 2025, Section 3.1. arXiv:2502.05171.",
+        "published_reference": {
+          "note": "The paper's own Table 1 and Table 4 report exact per-r accuracy on tasks that overlap ours. Not a digitized figure -- these are the authors' reported numbers, reproduced exactly. Their r=1 GSM8K CoT result (0.00%) is consistent with what we independently measured at r=1 on our own hardware.",
+          "source": "Geiping et al. 2025, Table 1 and Table 4, arXiv:2502.05171.",
+          "series": [
+            {
+              "task": "openbookqa",
+              "metric": "acc_norm (%)",
+              "points": [
+                { "r": 4, "value": 28.20 },
+                { "r": 8, "value": 35.40 },
+                { "r": 16, "value": 37.60 },
+                { "r": 32, "value": 38.80 }
+              ]
+            },
+            {
+              "task": "gsm8k",
+              "metric": "flexible extract (%)",
+              "points": [
+                { "r": 1, "value": 0.00 },
+                { "r": 32, "value": 34.80 }
+              ]
+            }
+          ]
+        }
+      },
+      "results": null
+    },
+    "bdh_cq__best_of_n": {
+      "has_results": false,
+      "evidence_tier": "purple",
+      "mechanism": {
+        "text": "BDH-CQ already performs candidate construction and ranking.",
+        "quotes": [
+          {
+            "text": "input transformations, candidate construction, ranking, and the inference pipeline",
+            "source": "BDH-CQ technical report, Section 3.1"
+          },
+          {
+            "text": "request context, call time, or an internal search path",
+            "source": "BDH-CQ technical report, Section 6.5"
+          }
+        ],
+        "reproducibility_note": "Across two runs: 442/480 first candidates, 276/480 complete ordered candidate lists, and 455/480 attempt counts agreed (BDH-CQ Sec. 6.5), with disagreement attributed to request context, call time, or an internal search path.",
+        "gap": "No published sweep over N. The ranker's internals are proprietary.",
+        "equations": [],
+        "source": "BDH-CQ technical report, Secs. 3.1 and 6.5."
+      },
+      "results": null
+    },
+    "bdh_cq__beam_search": {
+      "has_results": false,
+      "evidence_tier": "grey",
+      "blocked": true,
+      "mechanism": {
+        "text": "This is the most important non-results cell -- an architecturally blocked combination, not merely unstudied.",
+        "beats": [
+          {
+            "heading": "Beam search requires scoreable intermediate steps.",
+            "text": "In Snell et al., a PRM scores each solution step, top candidates are kept, branches extend from them. The method presupposes reasoning serialized into inspectable chunks."
+          },
+          {
+            "heading": "BDH-CQ's intermediate states are not decoded.",
+            "text": "Intermediate reasoning states are \"not decoded into language\" (BDH-CQ technical report, Section 1). There are no step boundaries to branch at, and no published per-step verifier that could score a partial latent state H_r."
+          },
+          {
+            "heading": "Diversity is harder than it looks.",
+            "text": "Geiping et al. Section 7 demonstrate path independence: re-initializing from multiple starting states s_0, \"the model moves in similar trajectories... The same orbital patterns, fixed points, or directional drifts emerge regardless of initialization.\" So the obvious way to generate candidate diversity in latent space -- resampling the initial state -- converges to the same behavior anyway."
+          }
+        ],
+        "closing": "Nobody has published this. It is an open question. Here is what would need solving first.",
+        "equations": [],
+        "source": "BDH-CQ technical report Sec. 1; Geiping et al. 2025 Sec. 7."
+      },
+      "results": null,
+      "hard_rule": "No chart, no axis, no dotted 'hypothetical' line for this cell. Text, equations, and a structural diagram showing where a verifier would have to attach -- nothing that could be read as a result."
+    },
+    "transformer__budget_forcing": {
+      "has_results": true,
+      "evidence_tier": "orange",
+      "mechanism": {
+        "text": "Force a minimum amount of reasoning: when the model tries to stop and give its answer, suppress that stop and append \"Wait\" to make it keep reasoning, up to a fixed number of forced continuations, before taking its final answer.",
+        "quotes": [
+          {
+            "text": "we suppress the generation of the end-of-thinking token delimiter and optionally append the string \"Wait\" to the model's current reasoning trace to encourage the model to reflect on its current generation",
+            "source": "Muennighoff et al. 2025, Section 3.1"
+          }
+        ],
+        "note": "s1-32B was fine-tuned on 1,000 curated reasoning traces (s1K) with an explicit end-of-thinking delimiter. Our own model (Qwen2.5-1.5B-Instruct) has no such trained delimiter, so we approximate the same mechanism structurally: we suppress the model's natural stop and inject \"Wait, let me double check that.\" to force continuation. This is our own implementation of the technique, not a reproduction of s1-32B's numbers.",
+        "equations": [],
+        "source": "Muennighoff, Yang, Shi, Li, Fei-Fei, Hajishirzi, Zettlemoyer, Candes, Hashimoto (2025). s1: Simple test-time scaling. arXiv:2501.19393, Section 3.1."
+      },
+      "results": {
+        "note": "Our own sweep, forced continuations in {0,1,2,4}, GSM8K, per-problem results.",
+        "source": "Our sweep (experiment/budget_forcing_sweep.py)",
+        "task": "gsm8k",
+        "budget_variable": "forced_continuations",
+        "data_ref": "results.json: transformer_qwen2.5-1.5b-instruct__budget_forcing__gsm8k",
+        "slider": {
+          "variable": "forced_continuations",
+          "description": "Reveals per-problem prediction vs. gold answer, and whether forcing the model to keep reasoning changed its answer."
+        }
+      }
+    },
+    "huginn__budget_forcing": {
+      "has_results": false,
+      "evidence_tier": "grey",
+      "mechanism": {
+        "text": "Budget forcing intervenes on the decoded token stream -- suppressing a stop, injecting \"Wait\" text. Huginn generates tokens autoregressively like any LM, so the technique is compatible in principle. But Huginn already has its own, different test-time compute dial: the r recurrence depth, which spends compute before any token is decoded, not by manipulating text already on the page. We did not run this combination -- unstudied by us.",
+        "equations": [],
+        "source": null
+      },
+      "results": null
+    },
+    "bdh_cq__budget_forcing": {
+      "has_results": false,
+      "evidence_tier": "grey",
+      "blocked": true,
+      "mechanism": {
+        "text": "Architecturally blocked, for the same root reason as beam search.",
+        "beats": [
+          {
+            "heading": "Budget forcing needs a decoded thinking trace to intervene on.",
+            "text": "The technique works by suppressing an end-of-thinking token delimiter in the generated text and appending \"Wait\" to that text (Muennighoff et al. Sec. 3.1). It presupposes reasoning that exists as tokens on the page."
+          },
+          {
+            "heading": "BDH-CQ's reasoning states are not decoded.",
+            "text": "The H_r reasoning recurrence produces latent states that are, per BDH-CQ Section 1, \"not decoded into language\" until the final H_R is passed to G_theta. There is no intermediate token stream to suppress a stop in, and nowhere to inject \"Wait.\""
+          },
+          {
+            "heading": "The same wall as beam search.",
+            "text": "This is architecturally the identical limitation that blocks BDH-CQ x Beam search: both methods require a decoded, inspectable intermediate trace, and BDH-CQ's reasoning loop never produces one."
+          }
+        ],
+        "closing": "A second cell blocked by the same root cause -- not a coincidence, but a direct consequence of reasoning in undecoded latent space.",
+        "equations": [],
+        "source": "BDH-CQ technical report Sec. 1; Muennighoff et al. 2025 Sec. 3.1."
+      },
+      "results": null,
+      "hard_rule": "No chart, no axis, no dotted 'hypothetical' line for this cell."
+    },
+    "bdh_cq__latent_compute": {
+      "has_results": true,
+      "evidence_tier": "purple",
+      "mechanism": {
+        "text": "Dual recurrence: a memory recurrence that accumulates as demonstrations are ingested, and a reasoning recurrence layered on top. Unlike Huginn's r, effort here is not a free continuous dial -- the model is trained with different levels of latent reasoning exposure, and at inference you choose among those trained levels (LOW/MEDIUM/HIGH), not an arbitrary iteration count.",
+        "equations": [
+          { "expr": "S_t = U_theta(S_{t-1}, D_t)", "note": "memory recurrence" },
+          { "expr": "H_0 = E_theta(x*, S_K)", "note": "reasoning recurrence init" },
+          { "expr": "H_{r+1} = F_theta(H_r, S_K)", "note": "for r = 0..R-1" },
+          { "expr": "y_hat = G_theta(H_R)", "note": null }
+        ],
+        "source": "BDH-CQ technical report, Equations 1-4, Section 3."
+      },
+      "results": {
+        "note": "BDH-CQ Table 5 (reproduced exactly).",
+        "source": "BDH-CQ technical report, Table 5",
+        "task": "arc-agi-1",
+        "budget_variable": "effort_level",
+        "table": [
+          { "effort": "LOW", "pass_at_2": 0.21, "cost_reduction": 0.22 },
+          { "effort": "MEDIUM", "pass_at_2": 0.27, "cost_reduction": 0.11 },
+          { "effort": "HIGH", "pass_at_2": 0.295, "cost_reduction": 0.0 }
+        ],
+        "also_cite": "150M-parameter model, 29.5% pass@2 on ARC-AGI-1 public eval, $0.00070 computed cost per task. Independently audited (Section 5, 'Independent evaluation').",
+        "label": "Published result -- BDH-CQ technical report, Table 5. BDH-CQ's checkpoint is not public; we did not reproduce this.",
+        "failure_moment_ref": "failure_moment_2",
+        "hard_rule": "Never plot Huginn and BDH-CQ numbers on the same chart. Different models, different tasks (GSM8K vs ARC-AGI-1), different metrics (exact match vs pass@2). Show as two separate panels sharing a conceptual label only."
+      }
+    }
+  },
+  "bdh_context_strip": {
+    "latent_compute": {
+      "text": "BDH itself has no depth dial. Its state recurs over tokens, indexed by token t, with layers L fixed at training time (Kosowski et al. 2025, Eq. 8). BDH-CQ added a separate reasoning recurrence H_r on top. That addition is BDH-CQ's contribution, not something inherited from BDH.",
+      "equation": { "expr": "rho_{t,l} = (rho_{t-1,l} + LN(E y_{t,l-1}) x_{t,l}^T) U", "source": "Kosowski et al. 2025, Eq. 8" }
+    },
+    "best_of_n": {
+      "text": "BDH scales inference the way a transformer does -- by consuming more tokens. But its state rho is fixed-size regardless of sequence length. Kosowski et al. describe it as \"associative memory (like KV-cache, but organized differently)\" and state \"there is no notion of a context window\" (Section 4.1). So token-scaling does not grow BDH's memory the way it grows a transformer's KV-cache.",
+      "equation": null
+    },
+    "beam_search": {
+      "text": "BDH scales inference the way a transformer does -- by consuming more tokens. But its state rho is fixed-size regardless of sequence length. Kosowski et al. describe it as \"associative memory (like KV-cache, but organized differently)\" and state \"there is no notion of a context window\" (Section 4.1). So token-scaling does not grow BDH's memory the way it grows a transformer's KV-cache.",
+      "equation": null
+    },
+    "budget_forcing": {
+      "text": "BDH scales inference the way a transformer does -- by consuming more tokens. But its state rho is fixed-size regardless of sequence length. Kosowski et al. describe it as \"associative memory (like KV-cache, but organized differently)\" and state \"there is no notion of a context window\" (Section 4.1). Budget forcing also presupposes a decoded reasoning trace it can intervene on -- BDH-CQ's H_r loop never produces one (see the BDH-CQ x Budget forcing panel).",
+      "equation": null
+    },
+    "do_not_claim": [
+      "BDH is a module appended to a transformer (it is a complete standalone architecture).",
+      "Swapping in BDH reduces inference cost at equal accuracy (no such result is published)."
+    ]
+  },
+  "failure_moments": {
+    "failure_moment_1": {
+      "title": "Saturation (published data, Huginn)",
+      "cell_ref": "huginn__latent_compute",
+      "available": true,
+      "evidence_tier": "purple",
+      "description": "We could not run our own sweep past r=1 on our 8GB GPU (see the Huginn x Latent-compute panel above for why). But the paper's own Table 1 reports exact OpenBookQA accuracy at r=4, 8, 16, 32: 28.2% -> 35.4% -> 37.6% -> 38.8%. Look at the gaps between those numbers: +7.2pp, then +2.2pp, then +1.2pp. That's saturation happening in front of you, in the authors' own reported numbers -- each doubling of compute buys a smaller and smaller gain. GSM8K CoT, by contrast, goes from 0.00% at r=1 to 34.80% at r=32 -- still climbing hard over the same range where OpenBookQA had already flattened. Same dial, same model, two different tasks, two different saturation points.",
+      "misconception_corrected": "More thinking time always makes an AI smarter."
+    },
+    "failure_moment_2": {
+      "title": "The statistical null (published, BDH-CQ Section 6.6)",
+      "cell_ref": "bdh_cq__latent_compute",
+      "data": {
+        "min_effort": { "cost_per_task_usd": 0.00088399, "pass_at_2": "111/400" },
+        "standard_effort": { "cost_per_task_usd": 0.00265246, "pass_at_2": "118/400" },
+        "difference_pp": -1.75,
+        "cost_multiplier": "~3x",
+        "paired_split": { "both": 105, "standard_only": 13, "min_only": 6, "neither": 276 },
+        "mcnemar_p_two_sided_exact": 0.167
+      },
+      "authors_quote": "All four reported endpoints favor STANDARD in point estimate, but this comparison is statistically unresolved.",
+      "lesson": "Not merely that returns diminish, but that sometimes you cannot statistically distinguish whether the extra compute helped at all."
+    }
+  },
+  "final_challenge": {
+    "prompt": "You've seen best-of-N, beam search, and latent compute scaling. Could you run beam search inside BDH-CQ?",
+    "choices": ["Yes", "No", "Only with changes"],
+    "reveal_ref": "bdh_cq__beam_search",
+    "free_text_prompt": "In your own words, why doesn't the model just always use the highest compute setting?",
+    "free_text_strong_answer_criteria": "Mentions both saturation AND task-dependence, not merely cost.",
+    "forced_choice_check": {
+      "statement": "True or False: BDH has the same depth dial you used in the Huginn panel.",
+      "correct_answer": false,
+      "explanation": "BDH's recurrence is over tokens with fixed layers; the depth dial belongs to recurrent-depth architectures and to BDH-CQ's added H_r."
+    }
+  },
+  "sources": [
+    {
+      "id": "geiping2025",
+      "citation": "Geiping, McLeish, Jain, Kirchenbauer, Singh, Bartoldson, Kailkhura, Bhatele, Goldstein (2025). Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach. arXiv:2502.05171.",
+      "model_url": "https://huggingface.co/tomg-group-umd/huginn-0125",
+      "code_url": "https://github.com/seal-rg/recurrent-pretraining",
+      "contributes": "The recurrent-depth mechanism, the r dial, task-dependent saturation (Fig. 1), latent trajectory analysis (Figs. 11-12), path independence (Sec. 7)."
+    },
+    {
+      "id": "snell2024",
+      "citation": "Snell, Lee, Xu, Kumar (2024). Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters. arXiv:2408.03314. Google DeepMind / UC Berkeley.",
+      "contributes": "Best-of-N, beam search, lookahead search, sequential revision. Difficulty-dependent compute-optimal allocation. Beam search over-optimization on easy questions (Fig. 3). FLOPs-matched pretraining-vs-inference tradeoff (Fig. 9)."
+    },
+    {
+      "id": "kosowski2025",
+      "citation": "Kosowski, Uznanski, Chorowski, Stamirowska, Bartoszkiewicz (2025). The Dragon Hatchling: The Missing Link between the Transformer and Models of the Brain. arXiv:2509.26507. Pathway.",
+      "code_url": "https://github.com/pathwaycom/bdh",
+      "contributes": "BDH architecture. Eq. 4 and Eq. 8 (BDH-GPU state-space dynamics). Fixed-size state rho, no context window (Sec. 4.1). Transformer-comparable scaling laws 10M-1B (Sec. 4.2)."
+    },
+    {
+      "id": "engdahl2026",
+      "citation": "Engdahl, Kosowski, Chorowski, Stamirowska, Uznanski, Jiang, Phadke, Kinas, Zhong (2026). BDH-CQ: In-Context Learning with Recurrent Latent Reasoning. arXiv:2608.09888. Pathway / Bielik AI / NYU.",
+      "contributes": "Dual recurrence (S_t memory + H_r reasoning), Eqs. 1-4. Effort levels Table 5. ARC-AGI-1 cost-accuracy result. MIN vs STANDARD statistical null (Sec. 6.6). Candidate construction and ranking (Secs. 3.1, 6.5)."
+    },
+    {
+      "id": "muennighoff2025",
+      "citation": "Muennighoff, Yang, Shi, Li, Fei-Fei, Hajishirzi, Zettlemoyer, Candes, Hashimoto (2025). s1: Simple test-time scaling. arXiv:2501.19393. Stanford / University of Washington / Allen Institute for AI / Contextual AI.",
+      "code_url": "https://github.com/simplescaling/s1",
+      "contributes": "Budget forcing (Sec. 3.1): decoding-time intervention forcing minimum/maximum thinking tokens by suppressing the end-of-thinking delimiter and appending \"Wait\". Sequential vs parallel test-time scaling framing. Control/Scaling/Performance metrics (Sec. 3.2)."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recurrence Lab — Inference-Time Scaling</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="toolbar">
+    <div class="brand">Recurrence<span>Lab</span></div>
+    <div class="toolbar-controls">
+      <label class="control control-big">
+        <span>Method</span>
+        <select id="method-select"></select>
+      </label>
+      <span class="times">×</span>
+      <label class="control control-big">
+        <span>System</span>
+        <select id="system-select"></select>
+      </label>
+    </div>
+    <div class="toolbar-links">
+      <a href="https://arxiv.org/abs/2502.05171" target="_blank" rel="noopener" title="Geiping et al. 2025">📄</a>
+      <a href="https://github.com/seal-rg/recurrent-pretraining" target="_blank" rel="noopener" title="Huginn code">🐙</a>
+    </div>
+  </header>
+  <section class="hero">
+    <h1 class="hero-title" id="central-claim">Loading claim…</h1>
+    <div class="hero-chart" id="hero-chart"></div>
+    <p class="hero-caption">Every panel below is one instance of this curve — or an honest explanation of why we don't have it yet.</p>
+  </section>
+
+  <main>
+    <section class="explorer" id="explorer">
+
+      <section class="stage">
+        <div class="stage-interact" id="stage-interact"></div>
+        <div class="stage-diagram-wrap">
+          <span class="stage-badge-corner" id="stage-tag"></span>
+          <div class="stage-diagram" id="stage-diagram"></div>
+        </div>
+      </section>
+
+      <div class="panels">
+        <div class="panel mechanism-panel" id="mechanism-panel">
+          <div class="panel-header">
+            <h2>Mechanism, explained</h2>
+          </div>
+          <div class="panel-body" id="mechanism-body"></div>
+        </div>
+
+        <div class="panel results-panel" id="results-panel">
+          <div class="panel-header">
+            <h2>Results</h2>
+            <span class="evidence-tag" id="results-tag"></span>
+          </div>
+          <div class="panel-body" id="results-body"></div>
+        </div>
+      </div>
+
+      <div class="bdh-strip" id="bdh-strip"></div>
+    </section>
+
+    <section class="failure-moment" id="failure-moment-1">
+      <h2>Failure moment — saturation is task-dependent</h2>
+      <div id="failure-1-body"></div>
+    </section>
+
+    <section class="failure-moment" id="failure-moment-2">
+      <h2>Failure moment — the statistical null</h2>
+      <div id="failure-2-body"></div>
+    </section>
+
+    <section class="final-challenge" id="final-challenge">
+      <h2>Final challenge</h2>
+      <div id="challenge-body"></div>
+    </section>
+  </main>
+
+  <footer>
+    <h3>Sources</h3>
+    <ul id="sources-list"></ul>
+  </footer>
+
+  <div class="tutorial-card" id="tutorial-card">
+    <button class="tutorial-close" id="tutorial-close" aria-label="Close">×</button>
+    <h3 id="tutorial-title"></h3>
+    <p id="tutorial-body"></p>
+    <div class="tutorial-nav">
+      <button id="tutorial-prev" aria-label="Previous">‹</button>
+      <span id="tutorial-index"></span>
+      <button id="tutorial-next" aria-label="Next">›</button>
+    </div>
+  </div>
+
+  <script src="diagrams.js"></script>
+  <script src="live.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
