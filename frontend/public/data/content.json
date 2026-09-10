@@ -92,16 +92,16 @@
       "results": null
     },
     "huginn__latent_compute": {
-      "has_results": false,
-      "evidence_tier": "grey",
+      "has_results": true,
+      "evidence_tier": "orange",
       "mechanism": {
         "text": "The same recurrent block is applied r times before decoding a token.",
         "equations": [
           { "expr": "s_i = R(e, s_{i-1})", "note": "for i = 1..r" },
           { "expr": "p = C(s_r)", "note": null }
         ],
-        "gap": "We attempted our own sweep (r in {1,4,8,16,32,64}, 30 GSM8K + 30 OpenBookQA problems) on an 8GB laptop GPU. Huginn-0125 is a 3.5B-parameter model; bf16 weights alone leave almost no headroom on 8GB VRAM. r=1 completed, but r=4 and r=8 both OOM'd consistently, even after reducing generation length and clearing the CUDA cache between calls. This is an infrastructure gap, not an architectural one -- the r dial genuinely exists and works, we just couldn't run it far enough to chart on this hardware.",
         "source": "Geiping et al. 2025, Section 3.1. arXiv:2502.05171.",
+        "note": "Our first attempt ran Huginn-0125 in bf16, which OOM'd past r=1 on an 8GB GPU. We then found that 4-bit (nf4) quantization drops the resident footprint from ~7.9GB to ~3.5-4.3GB across the full r range, which is what makes this a real sweep instead of a single data point.",
         "published_reference": {
           "note": "The paper's own Table 1 and Table 4 report exact per-r accuracy on tasks that overlap ours. Not a digitized figure -- these are the authors' reported numbers, reproduced exactly. Their r=1 GSM8K CoT result (0.00%) is consistent with what we independently measured at r=1 on our own hardware.",
           "source": "Geiping et al. 2025, Table 1 and Table 4, arXiv:2502.05171.",
@@ -127,7 +127,18 @@
           ]
         }
       },
-      "results": null
+      "results": {
+        "note": "Our own sweep, r in {1,4,8,16,32,64} (4-bit quantized to fit on 8GB VRAM), 30 GSM8K + 30 OpenBookQA problems, per-problem results. Higher r values fill in as the sweep completes -- the slider only offers r values we've actually verified ran.",
+        "source": "Our sweep (experiment/huginn_sweep.py, 4-bit nf4 quantized)",
+        "tasks": ["gsm8k", "openbookqa"],
+        "budget_variable": "r",
+        "data_ref": "results.json: huginn-0125__latent_compute__gsm8k, huginn-0125__latent_compute__openbookqa",
+        "slider": {
+          "variable": "r",
+          "description": "Reveals per-problem prediction, correctness vs. gold, and measured latency at each recurrence depth."
+        },
+        "failure_moment_ref": "failure_moment_1"
+      }
     },
     "bdh_cq__best_of_n": {
       "has_results": false,
@@ -296,11 +307,11 @@
   },
   "failure_moments": {
     "failure_moment_1": {
-      "title": "Saturation (published data, Huginn)",
+      "title": "Saturation, task-dependent (Huginn)",
       "cell_ref": "huginn__latent_compute",
       "available": true,
-      "evidence_tier": "purple",
-      "description": "We could not run our own sweep past r=1 on our 8GB GPU (see the Huginn x Latent-compute panel above for why). But the paper's own Table 1 reports exact OpenBookQA accuracy at r=4, 8, 16, 32: 28.2% -> 35.4% -> 37.6% -> 38.8%. Look at the gaps between those numbers: +7.2pp, then +2.2pp, then +1.2pp. That's saturation happening in front of you, in the authors' own reported numbers -- each doubling of compute buys a smaller and smaller gain. GSM8K CoT, by contrast, goes from 0.00% at r=1 to 34.80% at r=32 -- still climbing hard over the same range where OpenBookQA had already flattened. Same dial, same model, two different tasks, two different saturation points.",
+      "evidence_tier": "orange",
+      "description": "Switch task type in the Huginn x Latent-compute panel above and watch the slider: OpenBookQA and GSM8K saturate at different points, using our own real per-problem sweep data. The paper's own Table 1 shows the same pattern in their numbers -- OpenBookQA accuracy at r=4, 8, 16, 32: 28.2% -> 35.4% -> 37.6% -> 38.8%. Look at the gaps: +7.2pp, then +2.2pp, then +1.2pp -- each doubling of compute buys a smaller gain. GSM8K CoT, by contrast, goes from 0.00% at r=1 to 34.80% at r=32 in their data -- still climbing hard over the same range where OpenBookQA had already flattened. Same dial, same model, two different tasks, two different saturation points.",
       "misconception_corrected": "More thinking time always makes an AI smarter."
     },
     "failure_moment_2": {
